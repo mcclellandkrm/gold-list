@@ -1,0 +1,639 @@
+<title>The Sleeper List</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap">
+
+<style>
+  /* Layout: a parts-catalogue column. Hairline-ruled spec blocks, mono data, serif reasoning. */
+  :root {
+    --paper: #F3F5F6;
+    --card: #FFFFFF;
+    --ink: #14181B;
+    --muted: #5B656C;
+    --faint: #8A949B;
+    --line: #DCE1E4;
+    --accent: #0B5E66;
+    --accent-soft: #E2EDEE;
+    --caution: #8A5618;
+    --caution-soft: #F6EEE2;
+    --trap: #8E2F2F;
+    --trap-soft: #F7E8E8;
+
+    --display: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+    --body: 'Source Serif 4', Georgia, 'Times New Roman', serif;
+    --mono: 'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --paper: #101315;
+      --card: #171B1E;
+      --ink: #E7EBED;
+      --muted: #929CA3;
+      --faint: #6E787F;
+      --line: #262C30;
+      --accent: #5FB8C0;
+      --accent-soft: #15292C;
+      --caution: #D9A463;
+      --caution-soft: #2A2217;
+      --trap: #E08585;
+      --trap-soft: #2C1A1A;
+      color-scheme: dark;
+    }
+  }
+
+  :root[data-theme="dark"] {
+    --paper: #101315;
+    --card: #171B1E;
+    --ink: #E7EBED;
+    --muted: #929CA3;
+    --faint: #6E787F;
+    --line: #262C30;
+    --accent: #5FB8C0;
+    --accent-soft: #15292C;
+    --caution: #D9A463;
+    --caution-soft: #2A2217;
+    --trap: #E08585;
+    --trap-soft: #2C1A1A;
+    color-scheme: dark;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--body);
+    font-size: 16px;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 1180px;
+    margin: 0 auto;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+    padding-block: 0 56px;
+  }
+
+  /* ---------- masthead ---------- */
+  .masthead { padding-block: 40px 28px; border-bottom: 2px solid var(--ink); }
+
+  .kicker {
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 14px;
+  }
+
+  h1 {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: clamp(2rem, 6vw, 3.1rem);
+    line-height: 1.02;
+    letter-spacing: -0.025em;
+    margin: 0 0 16px;
+    text-wrap: balance;
+  }
+
+  .standfirst {
+    max-width: 62ch;
+    font-size: 1.05rem;
+    color: var(--muted);
+    margin: 0;
+  }
+  .standfirst strong { color: var(--ink); font-weight: 600; }
+
+  .premise {
+    margin-top: 24px;
+    padding: 16px 18px;
+    background: var(--accent-soft);
+    border-left: 3px solid var(--accent);
+    max-width: 68ch;
+    font-size: 0.95rem;
+  }
+  .premise p { margin: 0 0 8px; }
+  .premise p:last-child { margin-bottom: 0; }
+
+  /* ---------- controls ---------- */
+  .controls {
+    position: sticky;
+    top: env(safe-area-inset-top, 0px);
+    z-index: 20;
+    background: var(--paper);
+    border-bottom: 1px solid var(--line);
+    padding-block: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+  }
+
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0 0 auto;
+    height: env(safe-area-inset-top, 0px);
+    background: var(--paper);
+    z-index: 30;
+  }
+
+  .search {
+    flex: 1 1 240px;
+    min-width: 0;
+    font-family: var(--mono);
+    font-size: 13px;
+    color: var(--ink);
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 2px;
+    padding: 9px 12px;
+  }
+  .search:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .search::placeholder { color: var(--faint); }
+
+  .pills { display: flex; flex-wrap: wrap; gap: 6px; }
+  .tier-row { flex-basis: 100%; }
+  .tier-pill[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--card); }
+
+  .pill {
+    font-family: var(--mono);
+    font-size: 11px;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--muted);
+    background: transparent;
+    border: 1px solid var(--line);
+    border-radius: 2px;
+    padding: 7px 10px;
+    cursor: pointer;
+    white-space: nowrap;
+  }
+  .pill:hover { border-color: var(--accent); color: var(--accent); }
+  .pill:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .pill[aria-pressed="true"] {
+    background: var(--ink);
+    border-color: var(--ink);
+    color: var(--paper);
+  }
+  .pill.star-filter[aria-pressed="true"] {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: var(--card);
+  }
+
+  .count {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--faint);
+    padding-block: 16px 0;
+  }
+
+  /* ---------- grid ---------- */
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    gap: 1px;
+    background: var(--line);
+    border: 1px solid var(--line);
+    margin-top: 12px;
+  }
+
+  .entry {
+    background: var(--card);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    min-width: 0;
+  }
+
+  .entry-head { display: flex; gap: 12px; align-items: flex-start; justify-content: space-between; }
+
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--faint);
+    margin-bottom: 6px;
+  }
+
+  .entry h2 {
+    font-family: var(--display);
+    font-weight: 600;
+    font-size: 1.12rem;
+    line-height: 1.2;
+    letter-spacing: -0.012em;
+    margin: 0;
+    text-wrap: balance;
+  }
+
+  .star {
+    flex: 0 0 auto;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 2px;
+    line-height: 1;
+    color: var(--faint);
+  }
+  .star:hover { color: var(--accent); }
+  .star:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .star[aria-pressed="true"] { color: var(--accent); }
+  .star svg { display: block; width: 17px; height: 17px; }
+
+  /* price strip */
+  .prices {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    gap: 10px;
+    border-block: 1px solid var(--line);
+    padding-block: 10px;
+    font-variant-numeric: tabular-nums;
+  }
+  .prices div { min-width: 0; }
+  .plabel {
+    font-family: var(--mono);
+    font-size: 9.5px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--faint);
+    display: block;
+    margin-bottom: 2px;
+  }
+  .pval { font-family: var(--mono); font-size: 13px; font-weight: 500; }
+  .pval.was { color: var(--muted); text-decoration: line-through; text-decoration-thickness: 1px; }
+  .pval.now { color: var(--accent); font-weight: 600; }
+  .drop {
+    font-family: var(--mono);
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--ink);
+    text-align: right;
+    align-self: center;
+  }
+
+  .field { font-size: 0.925rem; }
+  .flabel {
+    font-family: var(--mono);
+    font-size: 9.5px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--muted);
+    display: block;
+    margin-bottom: 3px;
+  }
+  .field p { margin: 0; }
+
+  .catch {
+    background: var(--caution-soft);
+    border-left: 2px solid var(--caution);
+    padding: 10px 12px;
+    font-size: 0.875rem;
+  }
+  .catch .flabel { color: var(--caution); }
+  .catch p { margin: 0; color: var(--ink); }
+
+  .verdict {
+    display: inline-block;
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 5px 9px;
+    border: 1px solid currentColor;
+    border-radius: 2px;
+    align-self: flex-start;
+  }
+  .v-keep { color: var(--accent); }
+  .v-flip { color: var(--ink); }
+  .v-biz { color: var(--caution); }
+  .v-trap { color: var(--trap); background: var(--trap-soft); }
+
+  .entry.is-trap { border-left: 3px solid var(--trap); }
+
+  .links {
+    margin-top: auto;
+    padding-top: 12px;
+    border-top: 1px solid var(--line);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    align-items: center;
+  }
+  .links .flabel { margin: 0 4px 0 0; }
+  .links a {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    color: var(--muted);
+    border: 1px solid var(--line);
+    border-radius: 2px;
+    padding: 5px 8px;
+    white-space: nowrap;
+  }
+  .links a:hover { color: var(--accent); border-color: var(--accent); }
+  .links a:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+  .links a.sold { color: var(--accent); border-color: var(--accent); font-weight: 600; }
+  .links a.sold:hover { background: var(--accent-soft); }
+
+  .empty {
+    padding: 56px 20px;
+    text-align: center;
+    color: var(--faint);
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border: 1px solid var(--line);
+    border-top: none;
+    background: var(--card);
+  }
+
+  footer {
+    margin-top: 32px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+    font-size: 0.875rem;
+    color: var(--muted);
+    max-width: 70ch;
+  }
+  footer p { margin: 0 0 10px; }
+  footer strong { color: var(--ink); font-weight: 600; }
+
+  @media (max-width: 560px) {
+    .masthead { padding-block: 28px 22px; }
+    .prices { grid-template-columns: 1fr 1fr; }
+    .drop { grid-column: 1 / -1; text-align: left; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; animation: none !important; }
+  }
+</style>
+
+<div class="wrap">
+
+  <header class="masthead">
+    <div class="kicker">Buyer's list · UK used market · <span id="updated">loading…</span></div>
+    <h1>The Sleeper List</h1>
+    <p class="standfirst">Hardware from 2022&ndash;2024 that is still near the top of its class and now sells for a fraction of launch price, <strong>not because it aged badly but because it was sold badly</strong>.</p>
+
+    <div class="premise">
+      <p><strong>Read this differently from the Gold List.</strong> That list works on demand that already exists: you buy under market and a queue of buyers clears your stock in days.</p>
+      <p>This list is the opposite trade. These are cheap because nobody is searching for them, and that same silence makes them slow to sell on. Buy these to <em>own</em>, or to put to work. Flip only the few marked for it.</p>
+    </div>
+  </header>
+
+  <div class="controls">
+    <input id="search" class="search" type="search" placeholder="Filter: name, spec, reason it flopped…" autocomplete="off">
+    <div class="pills" id="cats"></div>
+    <button class="pill star-filter" id="starFilter" type="button" aria-pressed="false">★ Shortlist</button>
+    <div class="pills tier-row" id="tiers"></div>
+  </div>
+
+  <div class="count" id="count"></div>
+  <div class="grid" id="grid"></div>
+  <div class="empty" id="empty" hidden>Nothing matches that filter</div>
+
+  <footer>
+    <p><strong>On the prices.</strong> The "new" figure is UK launch RRP. The "now" figure is a working estimate of a fair private-sale price, not a quote. Hit <em>Sold prices</em> on any entry before you offer: that shows what buyers actually paid, where live listings only show what sellers are hoping for.</p>
+    <p><strong>On the verdicts.</strong> <em>Keep</em> means the value is in owning it and resale will be slow. <em>Flip</em> means there is enough residual demand to move it on inside a fortnight. <em>Business kit</em> means it earns rather than sits. <em>Trap</em> means the discount is real but so is the reason for it.</p>
+    <p><strong>Two different discounts.</strong> Most of this list is cheap because it was <em>sold badly</em>. The Drawer category is cheap for a different reason: high abandonment. Kit bought on enthusiasm for a project that never started, used twice, shelved. It comes to market boxed and barely touched, from a seller who only wants the space back. Worse odds of finding one, far better condition when you do, and the lowest-risk buy on the whole page.</p>
+    <p><strong>The test that matters.</strong> A steep discount tells you nothing on its own. Ask whether the thing was <em>ignored</em> or <em>rejected</em>. Ignored means good hardware that nobody was told about, and the discount is free money. Rejected means buyers tried it and said no, and the discount is the market being right. The Galaxy S25 Edge is on this list purely to hold that line in place.</p>
+  </footer>
+</div>
+
+<script>
+
+let ITEMS = [];
+
+const CATS = ["All", "Computing", "Phones", "Cameras", "Drones", "Audio", "Desk", "Premises", "Drawer", "Handheld"];
+
+const TIERS = [
+  { key: "any",  label: "Any price", test: () => true },
+  { key: "sub150", label: "Under £150", test: n => n < 150 },
+  { key: "mid",  label: "£150 – £500", test: n => n >= 150 && n < 500 },
+  { key: "top",  label: "£500+", test: n => n >= 500 }
+];
+
+// Entry price = the low end of the "now, used" band.
+function entryPrice(item) {
+  const m = String(item.now).match(/£\s*([\d,]+)/);
+  return m ? parseInt(m[1].replace(/,/g, ""), 10) : 0;
+}
+const VERDICTS = {
+  keep: { label: "Buy to keep", cls: "v-keep" },
+  flip: { label: "Buy to flip", cls: "v-flip" },
+  biz:  { label: "Business kit", cls: "v-biz" },
+  trap: { label: "Trap — don't", cls: "v-trap" }
+};
+
+let activeCat = "All";
+let activeTier = "any";
+let query = "";
+let starredOnly = false;
+let starred = loadStarred();
+
+function loadStarred() {
+  try {
+    const raw = localStorage.getItem("sleeperShortlist");
+    return raw ? new Set(JSON.parse(raw)) : new Set();
+  } catch (e) { return new Set(); }
+}
+
+function saveStarred() {
+  try {
+    localStorage.setItem("sleeperShortlist", JSON.stringify([...starred]));
+  } catch (e) { /* storage unavailable, shortlist is session-only */ }
+}
+
+function soldUrl(q) {
+  return "https://www.ebay.co.uk/sch/i.html?_nkw=" + encodeURIComponent(q) +
+         "&LH_Sold=1&LH_Complete=1&_sop=13";
+}
+function fbUrl(q) { return "https://www.facebook.com/marketplace/search/?query=" + encodeURIComponent(q); }
+function gumUrl(q) { return "https://www.gumtree.com/search?search_category=all&q=" + encodeURIComponent(q); }
+function liveUrl(q) { return "https://www.ebay.co.uk/sch/i.html?_nkw=" + encodeURIComponent(q); }
+
+const starPath = "M12 2.6l2.9 5.9 6.5.9-4.7 4.6 1.1 6.4-5.8-3-5.8 3 1.1-6.4L2.6 9.4l6.5-.9z";
+
+function esc(s) {
+  return String(s).replace(/[&<>"]/g, c => ({ "&":"&amp;", "<":"&lt;", ">":"&gt;", '"':"&quot;" }[c]));
+}
+
+function buildPills() {
+  document.getElementById("cats").innerHTML = CATS.map(c =>
+    `<button class="pill" type="button" data-cat="${esc(c)}" aria-pressed="${c === activeCat}">${esc(c)}</button>`
+  ).join("");
+
+  document.getElementById("tiers").innerHTML = TIERS.map(t =>
+    `<button class="pill tier-pill" type="button" data-tier="${esc(t.key)}" aria-pressed="${t.key === activeTier}">${esc(t.label)}</button>`
+  ).join("");
+}
+
+function matches(item) {
+  if (activeCat !== "All" && item.cat !== activeCat) return false;
+  const tier = TIERS.find(t => t.key === activeTier);
+  if (tier && !tier.test(entryPrice(item))) return false;
+  if (starredOnly && !starred.has(item.id)) return false;
+  if (!query) return true;
+  const hay = [item.name, item.cat, item.spec, item.flop, item.catch, item.why, item.year].join(" ").toLowerCase();
+  return hay.includes(query);
+}
+
+function render() {
+  const list = ITEMS.filter(matches);
+  const grid = document.getElementById("grid");
+  const empty = document.getElementById("empty");
+
+  document.getElementById("count").textContent =
+    list.length + (list.length === 1 ? " entry" : " entries") +
+    (starred.size ? " · " + starred.size + " shortlisted" : "");
+
+  if (!list.length) {
+    grid.innerHTML = "";
+    grid.hidden = true;
+    empty.hidden = false;
+    return;
+  }
+  grid.hidden = false;
+  empty.hidden = true;
+
+  grid.innerHTML = list.map(item => {
+    const v = VERDICTS[item.verdict];
+    const on = starred.has(item.id);
+    return `
+      <article class="entry${item.verdict === "trap" ? " is-trap" : ""}">
+        <div class="entry-head">
+          <div>
+            <div class="eyebrow">${esc(item.cat)} · ${esc(item.year)}</div>
+            <h2>${esc(item.name)}</h2>
+          </div>
+          <button class="star" type="button" data-id="${esc(item.id)}" aria-pressed="${on}"
+                  aria-label="Shortlist ${esc(item.name)}">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="${starPath}" fill="${on ? "currentColor" : "none"}"
+                    stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"></path>
+            </svg>
+          </button>
+        </div>
+
+        <div class="prices">
+          <div><span class="plabel">New</span><span class="pval was">${esc(item.was)}</span></div>
+          <div><span class="plabel">Now, used</span><span class="pval now">${esc(item.now)}</span></div>
+          <div class="drop">${esc(item.drop)}</div>
+        </div>
+
+        <div class="field">
+          <span class="flabel">Still good because</span>
+          <p>${esc(item.spec)}</p>
+        </div>
+
+        <div class="field">
+          <span class="flabel">Why nobody bought it</span>
+          <p>${esc(item.flop)}</p>
+        </div>
+
+        <div class="catch">
+          <span class="flabel">The catch</span>
+          <p>${esc(item.catch)}</p>
+        </div>
+
+        <span class="verdict ${v.cls}">${esc(v.label)}</span>
+
+        <div class="field">
+          <p>${esc(item.why)}</p>
+        </div>
+
+        <div class="links">
+          <span class="flabel">Check</span>
+          <a class="sold" href="${soldUrl(item.q)}" target="_blank" rel="noopener noreferrer">Sold prices</a>
+          <a href="${liveUrl(item.q)}" target="_blank" rel="noopener noreferrer">eBay</a>
+          <a href="${fbUrl(item.q)}" target="_blank" rel="noopener noreferrer">FB</a>
+          <a href="${gumUrl(item.q)}" target="_blank" rel="noopener noreferrer">Gumtree</a>
+        </div>
+      </article>`;
+  }).join("");
+}
+
+document.getElementById("cats").addEventListener("click", e => {
+  const btn = e.target.closest("[data-cat]");
+  if (!btn) return;
+  activeCat = btn.dataset.cat;
+  buildPills();
+  render();
+});
+
+document.getElementById("tiers").addEventListener("click", e => {
+  const btn = e.target.closest("[data-tier]");
+  if (!btn) return;
+  activeTier = btn.dataset.tier;
+  buildPills();
+  render();
+});
+
+document.getElementById("search").addEventListener("input", e => {
+  query = e.target.value.trim().toLowerCase();
+  render();
+});
+
+document.getElementById("starFilter").addEventListener("click", e => {
+  starredOnly = !starredOnly;
+  e.currentTarget.setAttribute("aria-pressed", String(starredOnly));
+  render();
+});
+
+document.getElementById("grid").addEventListener("click", e => {
+  const btn = e.target.closest(".star");
+  if (!btn) return;
+  const id = btn.dataset.id;
+  if (starred.has(id)) starred.delete(id); else starred.add(id);
+  saveStarred();
+  render();
+});
+
+function showLoadError() {
+  document.getElementById("updated").textContent = "data not loaded";
+  document.getElementById("grid").hidden = true;
+  const empty = document.getElementById("empty");
+  empty.hidden = false;
+  empty.textContent = location.protocol === "file:"
+    ? "Opened as a local file, so the browser blocks reading data/items.json. Use the deployed URL, or run a local server in this folder."
+    : "Could not load data/items.json";
+}
+
+async function boot() {
+  buildPills();
+  try {
+    const res = await fetch("data/items.json", { cache: "no-store" });
+    if (!res.ok) throw new Error(res.status);
+    const payload = await res.json();
+    ITEMS = Array.isArray(payload) ? payload : (payload.items || []);
+    const stamp = payload.updated;
+    document.getElementById("updated").textContent = stamp
+      ? "prices checked " + new Date(stamp + "T00:00:00").toLocaleDateString("en-GB",
+          { day: "numeric", month: "short", year: "numeric" })
+      : "UK used market";
+    render();
+  } catch (e) {
+    showLoadError();
+  }
+}
+
+boot();
+</script>
