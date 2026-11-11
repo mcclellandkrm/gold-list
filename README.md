@@ -36,6 +36,7 @@ displays it, so a stale list announces itself.
 | `flip` | Enough residual demand to move it on inside a fortnight. |
 | `biz` | Earns its keep rather than sitting on a shelf. |
 | `trap` | The discount is real and so is the reason for it. Listed as a warning. |
+| `fix` | Battery Swap entries. "now" is a tired or dead unit; value appears after the repair. See the `fix` block for parts, resale and margin. |
 
 ## The test
 

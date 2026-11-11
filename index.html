@@ -1,3 +1,4 @@
+<meta charset="utf-8">
 <title>The Sleeper List</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -321,6 +322,21 @@
   .v-flip { color: var(--ink); }
   .v-biz { color: var(--caution); }
   .v-trap { color: var(--trap); background: var(--trap-soft); }
+  .v-fix { color: var(--accent); background: var(--accent-soft); }
+
+  /* repair panel, Battery Swap entries only */
+  .fixbox {
+    border: 1px solid var(--accent);
+    background: var(--accent-soft);
+    padding: 10px 12px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px 10px;
+    font-variant-numeric: tabular-nums;
+  }
+  .fixbox .plabel { color: var(--accent); }
+  .fixbox .pval { font-size: 12.5px; }
+  .fixbox .tools { grid-column: 1 / -1; font-family: var(--mono); font-size: 11.5px; color: var(--muted); line-height: 1.45; }
 
   .entry.is-trap { border-left: 3px solid var(--trap); }
 
@@ -412,7 +428,8 @@
 
   <footer>
     <p><strong>On the prices.</strong> The "new" figure is UK launch RRP. The "now" figure is a working estimate of a fair private-sale price, not a quote. Hit <em>Sold prices</em> on any entry before you offer: that shows what buyers actually paid, where live listings only show what sellers are hoping for.</p>
-    <p><strong>On the verdicts.</strong> <em>Keep</em> means the value is in owning it and resale will be slow. <em>Flip</em> means there is enough residual demand to move it on inside a fortnight. <em>Business kit</em> means it earns rather than sits. <em>Trap</em> means the discount is real but so is the reason for it.</p>
+    <p><strong>On the verdicts.</strong> <em>Keep</em> means the value is in owning it and resale will be slow. <em>Flip</em> means there is enough residual demand to move it on inside a fortnight. <em>Business kit</em> means it earns rather than sits. <em>Trap</em> means the discount is real but so is the reason for it. <em>Buy to fix</em> means the value only appears after a repair.</p>
+    <p><strong>Battery Swap.</strong> A third kind of discount: good hardware written off because the battery faded. On these entries the "now" figure is a tired or dead unit, and the panel shows battery cost, fixed resale value and the margin between the two. Margin assumes your time is free and the cell is good, so buy batteries from sellers who accept returns. Any sealed device that has been opened is no longer reliably waterproof. Sell it as splash-resistant and say so in the listing.</p>
     <p><strong>Two different discounts.</strong> Most of this list is cheap because it was <em>sold badly</em>. The Drawer category is cheap for a different reason: high abandonment. Kit bought on enthusiasm for a project that never started, used twice, shelved. It comes to market boxed and barely touched, from a seller who only wants the space back. Worse odds of finding one, far better condition when you do, and the lowest-risk buy on the whole page.</p>
     <p><strong>The test that matters.</strong> A steep discount tells you nothing on its own. Ask whether the thing was <em>ignored</em> or <em>rejected</em>. Ignored means good hardware that nobody was told about, and the discount is free money. Rejected means buyers tried it and said no, and the discount is the market being right. The Galaxy S25 Edge is on this list purely to hold that line in place.</p>
   </footer>
@@ -422,10 +439,11 @@
 
 let ITEMS = [];
 
-const CATS = ["All", "Computing", "Phones", "Cameras", "Drones", "Audio", "Desk", "Premises", "Drawer", "Handheld"];
+const CATS = ["All", "Battery Swap", "Computing", "Phones", "Tablets", "Watches", "Mics", "Cameras", "Drones", "Audio", "Desk", "Premises", "Drawer", "Handheld"];
 
 const TIERS = [
   { key: "any",  label: "Any price", test: () => true },
+  { key: "sub100", label: "Under £100", test: n => n < 100 },
   { key: "sub150", label: "Under £150", test: n => n < 150 },
   { key: "mid",  label: "£150 – £500", test: n => n >= 150 && n < 500 },
   { key: "top",  label: "£500+", test: n => n >= 500 }
@@ -440,6 +458,7 @@ const VERDICTS = {
   keep: { label: "Buy to keep", cls: "v-keep" },
   flip: { label: "Buy to flip", cls: "v-flip" },
   biz:  { label: "Business kit", cls: "v-biz" },
+  fix:  { label: "Buy to fix", cls: "v-fix" },
   trap: { label: "Trap — don't", cls: "v-trap" }
 };
 
@@ -492,7 +511,7 @@ function matches(item) {
   if (tier && !tier.test(entryPrice(item))) return false;
   if (starredOnly && !starred.has(item.id)) return false;
   if (!query) return true;
-  const hay = [item.name, item.cat, item.spec, item.flop, item.catch, item.why, item.year].join(" ").toLowerCase();
+  const hay = [item.name, item.cat, item.spec, item.flop, item.catch, item.why, item.year, item.fix ? item.fix.tools : ""].join(" ").toLowerCase();
   return hay.includes(query);
 }
 
@@ -535,9 +554,18 @@ function render() {
 
         <div class="prices">
           <div><span class="plabel">New</span><span class="pval was">${esc(item.was)}</span></div>
-          <div><span class="plabel">Now, used</span><span class="pval now">${esc(item.now)}</span></div>
+          <div><span class="plabel">${item.fix ? "Now, tired" : "Now, used"}</span><span class="pval now">${esc(item.now)}</span></div>
           <div class="drop">${esc(item.drop)}</div>
         </div>
+${item.fix ? `
+        <div class="fixbox">
+          <div><span class="plabel">Battery</span><span class="pval">${esc(item.fix.part)}</span></div>
+          <div><span class="plabel">Fixed resale</span><span class="pval">${esc(item.fix.after)}</span></div>
+          <div><span class="plabel">Margin</span><span class="pval">${esc(item.fix.margin)}</span></div>
+          <div><span class="plabel">Difficulty</span><span class="pval">${esc(item.fix.level)}</span></div>
+          <div><span class="plabel">Time</span><span class="pval">${esc(item.fix.time)}</span></div>
+          <div class="tools"><span class="plabel">Kit</span>${esc(item.fix.tools)}</div>
+        </div>` : ""}
 
         <div class="field">
           <span class="flabel">Still good because</span>

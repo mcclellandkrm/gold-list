@@ -691,6 +691,791 @@
       "flop": "Two causes stacked: superseded by the GO II, which took all the marketing, and bought in volume by people who filmed four videos and stopped.",
       "catch": "1st gen has no onboard backup recording, so a dropout is lost audio for good. The output cable is easily lost and awkward to replace. Pair both units and test at ten metres before paying.",
       "why": "Flip. Sits below the DJI Mic entry on price with the same buyer pool, so it moves to the creators who cannot stretch to the DJI."
+    },
+    {
+      "id": "garmin-epix-gen2",
+      "name": "Garmin Epix Gen 2",
+      "q": "Garmin Epix Gen 2",
+      "cat": "Watches",
+      "year": "2022",
+      "was": "£799",
+      "now": "£160 – £280",
+      "drop": "−72%",
+      "verdict": "keep",
+      "spec": "AMOLED screen, full onboard maps, multi-band GPS and the whole Firstbeat training stack. Inside it is very close to the Fenix 7 Pro AMOLED, and it keeps getting features handed down from the Pro range.",
+      "flop": "The Epix Pro arrived a year later and took the name recognition. The market now confuses the two, overpays for the Pro, and leaves the Gen 2 sitting at a fraction of its £799 launch price.",
+      "catch": "Battery is shorter than a Fenix 7, and always-on display drains it hard. No solar. Gen 2 (42/47mm) and Gen 2 Pro (bigger case, torch, better heart-rate sensor) get listed under the same name, so check which one it is before paying Pro money.",
+      "why": "The one to have if you want a proper smartwatch screen without giving up Garmin battery life and maps.",
+      "src": [
+        "https://www.gumtree.com/for-sale/phones/smart-watch/uk/srpsearch+garmin+epix",
+        "https://uk.webuy.com/search?stext=garmin%20epix"
+      ]
+    },
+    {
+      "id": "garmin-fenix-7-pro",
+      "name": "Garmin Fenix 7 Pro Solar / Sapphire Solar",
+      "q": "Garmin Fenix 7 Pro Solar",
+      "cat": "Watches",
+      "year": "2023",
+      "was": "£749",
+      "now": "£280 – £360",
+      "drop": "−57%",
+      "verdict": "keep",
+      "spec": "Multi-band GPS, full maps, solar charging, built-in torch and the newer Elevate v4 heart-rate sensor. Battery runs into weeks rather than days.",
+      "flop": "Fenix 8 landed in 2024 and pulled used Fenix 7 prices down by about 40%. Nothing about the 7 Pro got worse. It just stopped being the newest one.",
+      "catch": "The MIP screen looks dull next to AMOLED, and the watch is big and heavy. The bezel picks up dings. There are a lot of variants (7S / 7 / 7X × Solar / Sapphire / Pro), so match the listing to the exact model.",
+      "why": "Best all-round outdoor watch per pound right now. Expensive at launch, mid-range money used.",
+      "src": [
+        "https://www.techradar.com/health-fitness/smartwatches/garmin-fenix-7-pro",
+        "https://www.gumtree.com/for-sale/phones/smart-watch/uk/srpsearch+garmin+fenix+7",
+        "https://uk.webuy.com/product-detail/?id=SWEAGARF7PSE47SBB"
+      ]
+    },
+    {
+      "id": "garmin-instinct-2x",
+      "name": "Garmin Instinct 2X Solar",
+      "q": "Garmin Instinct 2X Solar",
+      "cat": "Watches",
+      "year": "2023",
+      "was": "£399",
+      "now": "£170 – £220",
+      "drop": "−51%",
+      "verdict": "keep",
+      "spec": "Rugged case, solar charging, multi-week battery, a full-size GPS antenna, and a built-in torch, which is rare at this price.",
+      "flop": "It sits under the base Instinct 2 in search results, and buyers assume they are the same watch. They are not. The 2X is the one with the torch and the bigger battery.",
+      "catch": "No maps. The buttons are easy to press by accident and the screen is small. A base Instinct 2 is fairly priced, so don't pay 2X money for one.",
+      "why": "Watch that lives on site, in the van or on the hill and never needs charging on a weekly trip.",
+      "src": [
+        "https://www.idealo.co.uk/compare/202656466/garmin-instinct-2x-solar.html",
+        "https://www.ebay.co.uk/sch/i.html?_nkw=garmin+instinct+2x+solar"
+      ]
+    },
+    {
+      "id": "garmin-fr255-music",
+      "name": "Garmin Forerunner 255 Music",
+      "q": "Garmin Forerunner 255 Music",
+      "cat": "Watches",
+      "year": "2022",
+      "was": "£349",
+      "now": "£140 – £180",
+      "drop": "−54%",
+      "verdict": "flip",
+      "spec": "Same training stack as the 265, multi-band GPS, about a week of battery from the MIP screen, and onboard music storage with offline Spotify on the Music version.",
+      "flop": "The Forerunner 265 is basically an AMOLED 255, and it got all the attention. That leaves the 255 underpriced, and the Music version often sells for about the same as the base model.",
+      "catch": "Check it really is the Music version (255 Music / 255S Music). That is worth £25–£40 by itself. The MIP screen looks dated next to the 265.",
+      "why": "Runners know the model names, so it sells fast. Easy to buy right and move on.",
+      "src": [
+        "https://www.coach-mag.co.uk/",
+        "https://www.ebay.co.uk/p/25054802589",
+        "https://www.gumtree.com/uk/srpsearch+garmin+forerunner"
+      ]
+    },
+    {
+      "id": "garmin-venu-2-plus",
+      "name": "Garmin Venu 2 Plus",
+      "q": "Garmin Venu 2 Plus",
+      "cat": "Watches",
+      "year": "2022",
+      "was": "£399",
+      "now": "£100 – £135",
+      "drop": "−71%",
+      "verdict": "keep",
+      "spec": "AMOLED screen, speaker and mic so you can take calls through your phone, voice assistant, Elevate v4 heart-rate sensor and Garmin's full health tracking.",
+      "flop": "Most people don't know the Plus exists, and it gets priced like the base Venu 2. The speaker and mic are the bits that make it feel like a proper smartwatch.",
+      "catch": "Battery replacement through Garmin costs about £100, so check battery health. Proprietary charger, no wireless charging, GPS lock can be slow.",
+      "why": "The cheapest Garmin that feels like a smartwatch rather than a training tool.",
+      "src": [
+        "https://www.ebay.co.uk/sch/i.html?_nkw=garmin+venu+2+plus&LH_Sold=1",
+        "https://uk.webuy.com/search?stext=venu%202%20plus"
+      ]
+    },
+    {
+      "id": "pixel-watch-1",
+      "name": "Google Pixel Watch (1st gen)",
+      "q": "Google Pixel Watch",
+      "cat": "Watches",
+      "year": "2022",
+      "was": "£339",
+      "now": "£55 – £80",
+      "drop": "−80%",
+      "verdict": "trap",
+      "spec": "Lovely domed design, Wear OS with the Fitbit health stack, and it works well with Pixel phones.",
+      "flop": "It was dismissed for weak battery life at launch, and now it has a better reason to be cheap: Google's guaranteed support ended in October 2025 with a final minor update, and it stays on Wear OS 5.1.",
+      "catch": "Battery can come in under a day with always-on display, and age has made that worse. No more feature updates. Apps still update through the Play Store, but security fixes have stopped.",
+      "why": "Listed as a warning. Earlier notes called this a sleeper. That stopped being true when support ended, so it is now a discount with a real reason behind it.",
+      "src": [
+        "https://www.androidcentral.com/wearables/google-pixel-watch/final-farewell-googles-first-pixel-watch-receives-its-last-minor-update",
+        "https://www.eol.wiki/pixel-watch/",
+        "https://support.google.com/product-documentation/answer/12799779?hl=en"
+      ]
+    },
+    {
+      "id": "galaxy-tab-s8-ultra",
+      "name": "Samsung Galaxy Tab S8 Ultra",
+      "q": "Samsung Galaxy Tab S8 Ultra",
+      "cat": "Tablets",
+      "year": "2022",
+      "was": "£999",
+      "now": "£350 – £450",
+      "drop": "−60%",
+      "verdict": "flip",
+      "spec": "14.6in 120Hz AMOLED screen, Snapdragon 8 Gen 1, S Pen in the box, DeX desktop mode, quad speakers. Still one of the biggest, best tablet screens you can buy.",
+      "flop": "Huge, expensive and Android at a time when buyers spending £1,000 went to iPad Pro. Most people never even picked one up.",
+      "catch": "It has had its last major update (One UI 8 / Android 16), and security patches are due to stop around February–March 2027. Check the screen for burn-in and the corners for flex. The keyboard cover's touchpad is twitchy.",
+      "why": "Great for showing clients tours and plans across the table. Buy it, use it for a season, then sell it before the end of security support hits resale.",
+      "src": [
+        "https://www.secnews.gr/en/741315/galaxy-tab-telos-enimeroseon-samsung/",
+        "https://samfrew.com/devices/galaxy-tab-s8",
+        "https://uk.webuy.com/search?stext=tab%20s8%20ultra"
+      ]
+    },
+    {
+      "id": "oneplus-pad",
+      "name": "OnePlus Pad",
+      "q": "OnePlus Pad",
+      "cat": "Tablets",
+      "year": "2023",
+      "was": "£449",
+      "now": "£170 – £230",
+      "drop": "−55%",
+      "verdict": "keep",
+      "spec": "11.6in 144Hz screen in a 7:5 ratio, Dimensity 9000, quad speakers, a big battery and fast charging. Very quick for the price.",
+      "flop": "OnePlus's first tablet, launched quietly into a market that buys iPads or Samsung. Plenty of reviewers liked it, but few buyers ever heard of it.",
+      "catch": "The keyboard and stylus accessories can be unreliable. Check which Android version and security patch it is on before buying. Some connectivity features were missing at launch.",
+      "why": "Good second screen for media and notes at about the price of a basic iPad.",
+      "src": [
+        "https://uk.webuy.com/search?stext=oneplus%20pad",
+        "https://www.ebay.co.uk/sch/i.html?_nkw=oneplus+pad"
+      ]
+    },
+    {
+      "id": "surface-laptop-studio",
+      "name": "Microsoft Surface Laptop Studio (1st gen)",
+      "q": "Surface Laptop Studio",
+      "cat": "Computing",
+      "year": "2022",
+      "was": "£1,449",
+      "now": "£500 – £650",
+      "drop": "−60%",
+      "verdict": "keep",
+      "spec": "14.4in 120Hz touchscreen on a pull-forward hinge (laptop, stage or flat canvas), pen support, and an RTX 3050 Ti in the i7 builds.",
+      "flop": "The odd form factor confused reviewers, the performance was not class-leading for the money, and it only has two USB-C ports. The hinge is the selling point and nobody showed people how to use it.",
+      "catch": "The i5 versions have no dedicated graphics, so check which one you are buying. Check the fabric hinge for wear and the pen for charging. Prices went up to £2,879 depending on spec, so compare like with like.",
+      "why": "A drawing and presentation machine for design work at about the price of a mid-range laptop.",
+      "src": [
+        "https://www.ebay.co.uk/sch/i.html?_nkw=surface+laptop+studio&LH_Sold=1"
+      ]
+    },
+    {
+      "id": "zenfone-10",
+      "name": "Asus Zenfone 10",
+      "q": "Asus Zenfone 10",
+      "cat": "Phones",
+      "year": "2023",
+      "was": "£749",
+      "now": "£290 – £400",
+      "drop": "−54%",
+      "verdict": "keep",
+      "spec": "Flagship Snapdragon 8 Gen 2 in a 5.9in body, a gimbal-style stabilised main camera, a headphone jack, IP68 and wireless charging. Proper small phones barely exist any more.",
+      "flop": "Small phones don't sell, and Asus barely marketed it in the UK. Reviewers mostly said it was too expensive, but that is not a problem at used prices.",
+      "catch": "Charging is slow and still photos are average. No Android 16, so it stays on Android 15, though Asus was still sending security patches in September 2026. Check the patch date in settings.",
+      "why": "For anyone who wants flagship speed in one hand. Nothing else this compact matches it at this price.",
+      "src": [
+        "https://zentalk.asus.com/t5/release-notes/260901-zenfone-10-ww-eu-35-0604-0404-165-android-15/ba-p/511304",
+        "https://runtimechronicle.com/en/news/le-zenfone-10-refuse-de-disparaitre-asus-le-met-encore-a-jour-en-2026/"
+      ]
+    },
+    {
+      "id": "ricoh-theta-z1",
+      "name": "Ricoh Theta Z1",
+      "q": "Ricoh Theta Z1",
+      "cat": "Cameras",
+      "year": "2019",
+      "was": "£899",
+      "now": "£300 – £480",
+      "drop": "−57%",
+      "verdict": "biz",
+      "spec": "Two 1-inch sensors, RAW DNG stills and adjustable aperture. Still the best image quality you can get from a pocket 360 camera, and it is still sold new for around £899.",
+      "flop": "A niche product with almost no consumer marketing. It looks old next to Insta360's constant releases, so used prices have dropped while the new price has barely moved.",
+      "catch": "Battery drains fast and is sealed in. Some units have been reported dying without warning, so test it properly before buying. Check whether it is the 19GB or 51GB model. Video is weak, so this is a stills camera.",
+      "why": "Business kit for virtual tours: a pro-quality 360 image for less than half the new price, and faster than bracketing on a panoramic head.",
+      "src": [
+        "https://www.idealo.co.uk/compare/201589276/ricoh-theta-z1-51gb.html",
+        "https://www.digitalcameraworld.com/reviews/ricoh-theta-z1-hands-on-review"
+      ]
+    },
+    {
+      "id": "canon-eos-rp",
+      "name": "Canon EOS RP",
+      "q": "Canon EOS RP",
+      "cat": "Cameras",
+      "year": "2019",
+      "was": "£1,399",
+      "now": "£390 – £500",
+      "drop": "−68%",
+      "verdict": "keep",
+      "spec": "26MP full-frame sensor, Dual Pixel autofocus, a fully articulating screen and RF mount, so it takes adapted EF lenses without trouble. Light enough to carry everywhere.",
+      "flop": "It was the 'cheap' full-frame camera and got judged against the R6 and Sony's A7 III. Spec-sheet reviews punished it for weak video, and good stills users never gave it a look.",
+      "catch": "No in-body stabilisation. 4K is cropped 1.6x and loses Dual Pixel AF. Battery is rated at only about 250 shots, so buy spares. Burst shooting is slow.",
+      "why": "The cheapest way into full frame and Canon RF. Very good for interiors on a tripod, where none of its weaknesses matter.",
+      "src": [
+        "https://www.digitalcameraworld.com/",
+        "https://www.usedlens.co.uk/"
+      ]
+    },
+    {
+      "id": "osmo-action-4",
+      "name": "DJI Osmo Action 4",
+      "q": "DJI Osmo Action 4",
+      "cat": "Drones",
+      "year": "2023",
+      "was": "£379",
+      "now": "£150 – £190",
+      "drop": "−55%",
+      "verdict": "flip",
+      "spec": "1/1.3in sensor, 10-bit D-Log M, strong low-light performance for an action camera, magnetic quick-release mounts and front and rear screens.",
+      "flop": "GoPro dominates action cameras, and DJI replaced the Action 4 within a year. It now sits on DJI's discontinued list, which scares people off for no real reason.",
+      "catch": "The DJI app needs activating before first use, and some Android phones have trouble connecting. Battery and heat reports are mixed. Check the lens cover for scratches.",
+      "why": "Plenty of demand from cyclists and divers, so it sells within a fortnight if bought at the bottom of the range.",
+      "src": [
+        "https://www.ebay.co.uk/sch/i.html?_nkw=osmo+action+4",
+        "https://www.wex.co.uk/"
+      ]
+    },
+    {
+      "id": "shure-mv7",
+      "name": "Shure MV7 (1st gen)",
+      "q": "Shure MV7",
+      "cat": "Mics",
+      "year": "2020",
+      "was": "£259",
+      "now": "£75 – £110",
+      "drop": "−64%",
+      "verdict": "biz",
+      "spec": "Dynamic broadcast capsule that works over both USB and XLR, with Shure's auto-level and processing through the MOTIV app. It rejects the room well, which is the whole point in an untreated office.",
+      "flop": "Shure replaced it with the MV7+, discontinued the original, and the used price fell straight through. It is the same capsule that made people pay £259 for it.",
+      "catch": "No stand in the box. The touch panel is awkward and easy to brush by accident. Speak close and on-axis, because it isn't built for picking up a room. Check the micro-USB socket, which the MV7+ replaced with USB-C.",
+      "why": "The best-sounding desk mic for calls, voiceovers and podcasts at this price, and the XLR output means it grows with you.",
+      "src": [
+        "https://www.gumtree.com/",
+        "https://www.ebay.co.uk/sch/i.html?_nkw=shure+mv7"
+      ]
+    },
+    {
+      "id": "elgato-wave3",
+      "name": "Elgato Wave:3",
+      "q": "Elgato Wave:3",
+      "cat": "Mics",
+      "year": "2020",
+      "was": "£159",
+      "now": "£55 – £80",
+      "drop": "−58%",
+      "verdict": "keep",
+      "spec": "Condenser capsule with Clipguard, which blends in a lower-gain backup signal so a sudden shout or laugh doesn't distort. Capacitive mute on top, and the Wave Link software gives you a proper virtual mixer for calls and recording.",
+      "flop": "It was marketed as streamer kit, so office and voiceover users never looked at it. Gamers moved on, and used examples are plentiful and cheap.",
+      "catch": "Some owners report dropouts, crackling and gain resetting, which are usually software issues, so update Wave Link first. As a condenser it picks up the room, so it needs a quiet space or close placement.",
+      "why": "Plug-and-play desk mic with a built-in software mixer for well under half its launch price.",
+      "src": [
+        "https://uk.webuy.com/search?stext=elgato%20wave%203",
+        "https://pricespy.co.uk/"
+      ]
+    },
+    {
+      "id": "rode-nt-usb-mini",
+      "name": "Rode NT-USB Mini",
+      "q": "Rode NT-USB Mini",
+      "cat": "Mics",
+      "year": "2020",
+      "was": "£99",
+      "now": "£40 – £55",
+      "drop": "−52%",
+      "verdict": "keep",
+      "spec": "Studio-quality condenser with a zero-latency headphone output, a magnetic desk stand and Rode Connect software that can run up to four of them at once on one computer.",
+      "flop": "Small, plain and sold on almost no advertising beside louder RGB gaming mics, so it never built a following.",
+      "catch": "No mute button. It picks up the room, so keep it close and turn the gain down. A few units have been reported failing, so test before paying.",
+      "why": "The cheapest properly good desk mic. Buy two for two-person recording through Rode Connect.",
+      "src": [
+        "https://edge.rode.com/",
+        "https://pricespy.co.uk/"
+      ]
+    },
+    {
+      "id": "hyperx-quadcast-s",
+      "name": "HyperX QuadCast S",
+      "q": "HyperX QuadCast S",
+      "cat": "Mics",
+      "year": "2020",
+      "was": "£160",
+      "now": "£45 – £60",
+      "drop": "−67%",
+      "verdict": "flip",
+      "spec": "Four polar patterns (cardioid, stereo, omni, figure-8), built-in shock mount, tap-to-mute and a gain dial on the base.",
+      "flop": "It was bought on RGB hype, and gamers sell it on as soon as they upgrade. There are a lot of them on the used market, and buyers treat them like toys.",
+      "catch": "Very sensitive to background noise, and the internal pop filter doesn't do much. The RGB software only runs on Windows. Some owners report USB connection drops after the warranty ends.",
+      "why": "Constant demand from new streamers, so it moves quickly at the bottom of the range.",
+      "src": [
+        "https://uk.webuy.com/search?stext=quadcast%20s",
+        "https://www.pcmag.com/"
+      ]
+    },
+    {
+      "id": "at2020usb-plus",
+      "name": "Audio-Technica AT2020USB+",
+      "q": "Audio-Technica AT2020USB+",
+      "cat": "Mics",
+      "year": "2013",
+      "was": "£135",
+      "now": "£45 – £65",
+      "drop": "−59%",
+      "verdict": "keep",
+      "spec": "The classic AT2020 studio condenser with its own built-in converter, a headphone output and a mix dial. Needs no software and works on anything.",
+      "flop": "It has been on sale so long it fell out of the conversation, and newer USB mics with RGB and apps took the reviews. The capsule is still excellent.",
+      "catch": "No internal pop filter, so plosives come through, and you will want a foam windshield. It picks up keyboard clicks if it sits on the same desk, so put it on an arm. Check the cable and socket.",
+      "why": "A no-fuss mic that just works on Mac, PC or iPad for voiceovers and calls.",
+      "src": [
+        "https://www.ebay.co.uk/sch/i.html?_nkw=at2020usb%2B",
+        "https://www.trustedreviews.com/"
+      ]
+    },
+    {
+      "id": "rode-podmic",
+      "name": "Rode PodMic (XLR)",
+      "q": "Rode PodMic",
+      "cat": "Mics",
+      "year": "2019",
+      "was": "£99",
+      "now": "£35 – £60",
+      "drop": "−52%",
+      "verdict": "biz",
+      "spec": "End-address dynamic mic built like a tank, with an internal pop filter and a broadcast tone that ignores the room. It needs an interface, which pairs it naturally with the Scarlett 2i2 already on this list.",
+      "flop": "XLR-only puts off people who want USB, so it got overlooked. The USB version that came later pushed the original further down the price list.",
+      "catch": "Heavy, so it needs a sturdy arm. The swing mount sits close to the XLR socket, which makes some plugs awkward. Dynamic mics need gain, so a weak interface will sound thin.",
+      "why": "Pair one with a used Scarlett 2i2 and you have a broadcast-sounding setup for under £120 all in.",
+      "src": [
+        "https://www.idealo.co.uk/",
+        "https://www.musicradar.com/"
+      ]
+    },
+    {
+      "id": "logitech-brio",
+      "name": "Logitech Brio 4K webcam",
+      "q": "Logitech Brio",
+      "cat": "Desk",
+      "year": "2017",
+      "was": "£199",
+      "now": "£55 – £75",
+      "drop": "−67%",
+      "verdict": "keep",
+      "spec": "4K sensor, HDR, Windows Hello face login and adjustable field of view. Still sharper than most new 1080p webcams.",
+      "flop": "Logitech has released so many webcams since that the Brio looks old, and office clear-outs keep a steady supply on the market.",
+      "catch": "The autofocus can lock onto the wall behind you if you sit off-centre, so set focus manually in Logi software. Check the detachable USB cable is included, since it is a slightly unusual type.",
+      "why": "Client calls and tour walkthroughs that look like you made an effort, for the price of a cheap webcam.",
+      "src": [
+        "https://uk.webuy.com/search?stext=logitech%20brio",
+        "https://www.idealo.co.uk/"
+      ]
+    },
+    {
+      "id": "sony-wh1000xm4",
+      "name": "Sony WH-1000XM4",
+      "q": "Sony WH-1000XM4",
+      "cat": "Audio",
+      "year": "2020",
+      "was": "£350",
+      "now": "£80 – £120",
+      "drop": "−71%",
+      "verdict": "flip",
+      "spec": "Class-leading noise cancelling for its time, multipoint pairing, 30-hour battery, speak-to-chat, and it folds, which the XM5 doesn't.",
+      "flop": "The XM5 and then the XM6 pushed it down the list. Plenty of people still rate it above the XM5 for comfort and the folding case.",
+      "catch": "Check the headband hinges and the ear pads, which wear. Battery will have aged. Some owners report failures, so buy from someone who will let you test it.",
+      "why": "Lots of buyers know the name, so it moves quickly at under £100.",
+      "src": [
+        "https://uk.webuy.com/search?stext=wh-1000xm4"
+      ]
+    },
+    {
+      "id": "sony-wf1000xm4",
+      "name": "Sony WF-1000XM4 earbuds",
+      "q": "Sony WF-1000XM4",
+      "cat": "Audio",
+      "year": "2021",
+      "was": "£250",
+      "now": "£20 – £85",
+      "drop": "−79%",
+      "verdict": "trap",
+      "spec": "Strong noise cancelling, LDAC and a firmware update that added multipoint. It was the best buds of its year.",
+      "flop": "The prices look like a bargain because many of these units have dying batteries. That is not under-marketing.",
+      "catch": "Owners report batteries fading badly, charging problems, and one earbud cutting out after 15–20 minutes. The £20 listings are usually exactly that fault. You can't replace the batteries.",
+      "why": "Listed as a warning. Spend the money on the over-ear WH-1000XM4 instead.",
+      "src": [
+        "https://www.ebay.co.uk/sch/i.html?_nkw=wf-1000xm4",
+        "https://uk.webuy.com/search?stext=wf-1000xm4"
+      ]
+    },
+    {
+      "id": "kindle-oasis-3",
+      "name": "Kindle Oasis (3rd gen)",
+      "q": "Kindle Oasis",
+      "cat": "Drawer",
+      "year": "2019",
+      "was": "£229",
+      "now": "£75 – £100",
+      "drop": "−62%",
+      "verdict": "keep",
+      "spec": "7in 300ppi screen with adjustable warm light, physical page-turn buttons, aluminium body and waterproofing. The only Kindle with proper buttons.",
+      "flop": "Amazon discontinued it without a replacement and moved everyone to the Paperwhite and Scribe. People who know what it is want one, but there is no marketing pushing them.",
+      "catch": "Micro-USB, not USB-C. Battery reports are mixed, so check idle drain. Check it is not still registered to the seller's Amazon account.",
+      "why": "A typical drawer item: bought as a gift, used for one holiday, then shelved. Usually in good condition.",
+      "src": [
+        "https://uk.webuy.com/search?stext=kindle%20oasis",
+        "https://pricespy.co.uk/"
+      ]
+    },
+    {
+      "id": "galaxy-watch5-pro",
+      "name": "Samsung Galaxy Watch5 Pro",
+      "q": "Samsung Galaxy Watch5 Pro",
+      "cat": "Watches",
+      "year": "2022",
+      "was": "£429",
+      "now": "£70 – £100",
+      "drop": "−80%",
+      "verdict": "keep",
+      "spec": "Titanium case, sapphire glass, big 590mAh battery good for two to three days, GPX route import and turn-by-turn navigation. Pairs well with your Tab S9 and any Samsung phone.",
+      "flop": "Samsung didn't make a Watch6 Pro, so the Pro line just vanished from shelves and people forgot about it. It is still the toughest Galaxy Watch made before the Ultra.",
+      "catch": "Check which Wear OS version it is on and that it is not locked to the seller's Samsung account. Battery, GPS and connection reports vary. LTE versions cost a little more and need an eSIM sorted.",
+      "why": "A premium titanium smartwatch for less than the price of a basic fitness band.",
+      "src": [
+        "https://www.ebay.co.uk/sch/i.html?_nkw=galaxy+watch5+pro",
+        "https://www.idealo.co.uk/"
+      ]
+    },
+    {
+      "id": "canon-efs-10-18",
+      "name": "Canon EF-S 10-18mm f/4.5-5.6 IS STM",
+      "q": "Canon EF-S 10-18mm",
+      "cat": "Cameras",
+      "year": "2014",
+      "was": "£299",
+      "now": "£80 – £120",
+      "drop": "−67%",
+      "verdict": "biz",
+      "spec": "Ultra-wide 16–29mm equivalent on APS-C, with image stabilisation, quiet STM focus and light weight. It adapts to Canon RF bodies too.",
+      "flop": "A plastic, cheap-looking lens that everyone assumed was a compromise. It is actually sharp, and with DSLRs going out of fashion, used prices dropped.",
+      "catch": "Plastic mount. Chromatic aberration, barrel distortion and dark corners at 10mm, all of which correct easily in Lightroom. Full-frame RF bodies will crop to APS-C.",
+      "why": "The cheapest proper interiors lens there is, for estate agent and venue photography.",
+      "src": [
+        "https://www.usedlens.co.uk/",
+        "https://uk.webuy.com/search?stext=10-18mm"
+      ]
+    },
+    {
+      "id": "wacom-intuos-pro-m",
+      "name": "Wacom Intuos Pro Medium (PTH-660)",
+      "q": "Wacom Intuos Pro Medium",
+      "cat": "Desk",
+      "year": "2017",
+      "was": "£330",
+      "now": "£60 – £110",
+      "drop": "−74%",
+      "verdict": "keep",
+      "spec": "Pro Pen 2 with 8,192 pressure levels and tilt, Bluetooth or wired, eight ExpressKeys, a touch ring and multi-touch. It is the same pen tech as Wacom's expensive Cintiqs.",
+      "flop": "Pen displays took all the attention, and the plain tablet looked old-fashioned. Retouchers still swear by it.",
+      "catch": "The textured surface wears out nibs quickly, so buy spares. Bluetooth can be flaky, so use the cable. Make sure the pen is included, because a replacement costs a lot.",
+      "why": "Good for retouching tour panoramas and editing in Photoshop, and better for your wrist than a mouse.",
+      "src": [
+        "https://www.ebay.co.uk/sch/i.html?_nkw=wacom+pth-660",
+        "https://pricespy.co.uk/"
+      ]
+    },
+    {
+      "id": "mx-master-3",
+      "name": "Logitech MX Master 3",
+      "q": "Logitech MX Master 3",
+      "cat": "Desk",
+      "year": "2019",
+      "was": "£99",
+      "now": "£30 – £50",
+      "drop": "−60%",
+      "verdict": "keep",
+      "spec": "MagSpeed electromagnetic scroll wheel, thumb wheel for horizontal scrolling, three-device switching and app-specific button profiles. It works on glass.",
+      "flop": "The 3S and 4 replaced it with quieter clicks, and offices sell off the old ones in batches.",
+      "catch": "Some report scroll wheel accuracy and Flow reliability issues. Check rubber grip wear and battery health. USB-C charging, so no adapter hassle.",
+      "why": "Cheap upgrade for anyone still on a basic mouse. You will notice it in Photoshop and spreadsheets.",
+      "src": [
+        "https://www.ebay.co.uk/sch/i.html?_nkw=mx+master+3",
+        "https://uk.webuy.com/search?stext=mx%20master%203"
+      ]
+    },
+    {
+      "id": "fix-venu-2",
+      "name": "Garmin Venu 2 / 2S",
+      "q": "Garmin Venu 2",
+      "cat": "Battery Swap",
+      "year": "2021",
+      "was": "£349",
+      "now": "£40 – £70",
+      "drop": "−84%",
+      "verdict": "fix",
+      "spec": "AMOLED screen, Elevate v4 heart-rate sensor and the full Garmin health suite. With a fresh battery it is a current-feeling smartwatch again.",
+      "flop": "Garmin's official battery service costs about £100, which wipes out the value for a normal owner. So tired units get sold cheaply or put in a drawer.",
+      "catch": "Battery tabs are soldered to the board, so desolder carefully to avoid damaging the flex cable. After service it is splash-resistant only unless the seal is pressure-tested: daily wear, no swimming. Tell the buyer that.",
+      "why": "The original recipe from the watch notes. It is the core of this section and where the method was proven.",
+      "fix": {
+        "part": "£20",
+        "after": "£95 – £130",
+        "margin": "£5 – £70",
+        "level": "Moderate",
+        "time": "1 – 1.5 hrs",
+        "tools": "Craft heat gun on low, plastic picks, soldering iron, 3M 9448A adhesive gasket, IPA for cleanup"
+      },
+      "src": [
+        "https://subtel.co.uk/",
+        "https://www.ebay.co.uk/sch/i.html?_nkw=garmin+venu+2+battery"
+      ]
+    },
+    {
+      "id": "fix-fenix-5-plus",
+      "name": "Garmin Fenix 5 / 5 Plus",
+      "q": "Garmin Fenix 5 Plus",
+      "cat": "Battery Swap",
+      "year": "2018",
+      "was": "£599",
+      "now": "£50 – £80",
+      "drop": "−89%",
+      "verdict": "fix",
+      "spec": "Steel-and-glass Fenix build, full GPS and, on the 5 Plus, maps, music and Garmin Pay. It's still an excellent outdoor watch once the battery is fresh.",
+      "flop": "Two generations newer and on its second battery-life complaint cycle. Owners assume it is finished and trade it in for pennies.",
+      "catch": "The battery is glued in and needs careful prying. Some aftermarket cells run slightly oversized, so test-fit before closing. Owners report part 361-00097-00 at either 230 or 255mAh, so check the capacity listed. The screwed rear case reseals better than a glued screen, but it is still not a factory seal.",
+      "why": "A screwed caseback makes this the easiest Garmin to service well. A good second project after the Venu.",
+      "fix": {
+        "part": "£20",
+        "after": "£110 – £150",
+        "margin": "£10 – £80",
+        "level": "Moderate",
+        "time": "45 – 60 mins",
+        "tools": "T6 Torx driver, plastic opening pick, replacement rear gasket if available"
+      },
+      "src": [
+        "https://subtel.co.uk/",
+        "https://www.gumtree.com/"
+      ]
+    },
+    {
+      "id": "fix-forerunner-945",
+      "name": "Garmin Forerunner 945",
+      "q": "Garmin Forerunner 945",
+      "cat": "Battery Swap",
+      "year": "2019",
+      "was": "£519",
+      "now": "£60 – £100",
+      "drop": "−85%",
+      "verdict": "fix",
+      "spec": "Flagship training stack, maps, music, Garmin Pay and a strong GPS. Runners still rate it highly, and the 955 never felt like a big enough step up.",
+      "flop": "Battery fade after five-plus years of heavy training use, with no cheap official fix. That is all that's wrong with most of them.",
+      "catch": "Opening it compromises water resistance, and that matters for triathletes who swim. Battery listings are mostly 'compatible' cells, so buy from a seller with returns.",
+      "why": "The best margin of the Garmin swaps, because runners know the 945 name and pay for it.",
+      "fix": {
+        "part": "£18",
+        "after": "£145 – £180",
+        "margin": "£27 – £102",
+        "level": "Moderate",
+        "time": "about 1 hr",
+        "tools": "Precision screwdriver set, plastic picks, gentle heat, adhesive"
+      },
+      "src": [
+        "https://www.topbattery.co.uk/",
+        "https://www.ebay.co.uk/sch/i.html?_nkw=forerunner+945"
+      ]
+    },
+    {
+      "id": "fix-vivoactive-4",
+      "name": "Garmin Vivoactive 4 / 4S",
+      "q": "Garmin Vivoactive 4",
+      "cat": "Battery Swap",
+      "year": "2019",
+      "was": "£259",
+      "now": "£20 – £50",
+      "drop": "−86%",
+      "verdict": "fix",
+      "spec": "Garmin Pay, music, GPS and a proper touchscreen. It's the mainstream Garmin a lot of non-runners bought.",
+      "flop": "Sold to casual users who replace rather than repair. Faulty units show up on eBay for as little as about £14 as parts-only.",
+      "catch": "The screen adhesive needs 5–10 minutes of heat. Watch the screen ribbon and small connectors. No soldering, according to iFixit, which makes it easier than the Venu 2.",
+      "why": "Cheapest way in and the easiest Garmin to buy dead. Good volume item.",
+      "fix": {
+        "part": "£17",
+        "after": "£80 – £100",
+        "margin": "£13 – £63",
+        "level": "Moderate",
+        "time": "45 – 60 mins",
+        "tools": "Heat gun and iOpener, thin opening tool, spudger, Phillips #00"
+      },
+      "src": [
+        "https://www.ifixit.com/",
+        "https://subtel.co.uk/"
+      ]
+    },
+    {
+      "id": "fix-sony-xm3",
+      "name": "Sony WH-1000XM3",
+      "q": "Sony WH-1000XM3",
+      "cat": "Battery Swap",
+      "year": "2018",
+      "was": "£330",
+      "now": "£20 – £40",
+      "drop": "−91%",
+      "verdict": "fix",
+      "spec": "Noise cancelling that was the best on the market in its year, comfortable, and USB-C. Plenty of people still prefer its sound to the XM4's.",
+      "flop": "The battery goes, owners assume the headphones are finished, and they buy XM5s. It's the classic dead-battery headphone.",
+      "catch": "Discharge below 25% before opening. Put the new adhesive in the housing, not on the cell. Check the headband hinge for cracks, which a battery won't fix.",
+      "why": "Quick, low-skill job with steady demand. Good one to do several of in a batch.",
+      "fix": {
+        "part": "£17",
+        "after": "£60 – £90",
+        "margin": "£3 – £53",
+        "level": "Easy",
+        "time": "about 30 mins",
+        "tools": "Spudger, 1.5mm Phillips, replacement adhesive square"
+      },
+      "src": [
+        "https://subtel.co.uk/",
+        "https://www.ifixit.com/"
+      ]
+    },
+    {
+      "id": "fix-bose-qc35-ii",
+      "name": "Bose QuietComfort 35 II",
+      "q": "Bose QC35 II",
+      "cat": "Battery Swap",
+      "year": "2017",
+      "was": "£329",
+      "now": "£20 – £40",
+      "drop": "−91%",
+      "verdict": "fix",
+      "spec": "Still one of the most comfortable noise-cancelling headphones ever made, with simple controls and a huge user base.",
+      "flop": "Battery fade, flaking headband and peeling ear pads make it look worn out. Most of that is cheap to fix.",
+      "catch": "iFixit rates it Difficult, with soldering and adhesive. Shield the speaker from heat. Budget for new pads and a headband cover, otherwise it won't resell at the top of the range.",
+      "why": "Only worth it if you're quick with a soldering iron. If you're doing pads and headband anyway, add the battery.",
+      "fix": {
+        "part": "£28",
+        "after": "£55 – £90",
+        "margin": "£0 – £42",
+        "level": "Hard",
+        "time": "45 mins – 2 hrs",
+        "tools": "Hairdryer or heat gun (keep it under 100°C), soldering iron, opening pick, spudger, Phillips #00"
+      },
+      "src": [
+        "https://www.ifixit.com/",
+        "https://www.ebay.co.uk/sch/i.html?_nkw=qc35+ii+battery"
+      ]
+    },
+    {
+      "id": "fix-dyson-v11",
+      "name": "Dyson V10 / V11 cordless",
+      "q": "Dyson V11",
+      "cat": "Battery Swap",
+      "year": "2019",
+      "was": "£499",
+      "now": "£40 – £80",
+      "drop": "−88%",
+      "verdict": "fix",
+      "spec": "Strong suction, LCD runtime display on the V11, and a huge range of accessories still on sale.",
+      "flop": "When the battery dies, people assume the vacuum is dead and replace the whole thing. That makes this the most common dead-battery listing on Facebook Marketplace.",
+      "catch": "V11s come with either click-in or screw-in packs, so check for the big red release button before ordering. Use genuine Dyson packs (about £85–£110). Cheap aftermarket packs are a fire and reputation risk. Check the motor and filters too.",
+      "why": "Highest volume in this section and the easiest job here. The margin depends on buying the dead ones cheaply.",
+      "fix": {
+        "part": "£85",
+        "after": "£150 – £210",
+        "margin": "£0 – £85",
+        "level": "Easy",
+        "time": "5 – 10 mins",
+        "tools": "None for click-in packs; screwdriver for screw-in"
+      },
+      "src": [
+        "https://www.idealo.co.uk/",
+        "https://www.dyson.co.uk/"
+      ]
+    },
+    {
+      "id": "fix-kindle-pw4",
+      "name": "Kindle Paperwhite (10th gen)",
+      "q": "Kindle Paperwhite 10th",
+      "cat": "Battery Swap",
+      "year": "2018",
+      "was": "£119",
+      "now": "£20 – £35",
+      "drop": "−77%",
+      "verdict": "fix",
+      "spec": "300ppi screen, waterproof and Audible support. Most people still don't need anything newer.",
+      "flop": "Battery drain makes owners think it needs replacing, and a new Paperwhite is always on offer.",
+      "catch": "The battery is glued in. Opening it breaks the waterproofing, so sell as 'not waterproof'. The margin is thin, so only buy at the bottom of the range.",
+      "why": "Low-stakes practice piece. Good for learning the method before trying watches.",
+      "fix": {
+        "part": "£18",
+        "after": "£50 – £65",
+        "margin": "£0 – £27",
+        "level": "Moderate",
+        "time": "about 40 mins",
+        "tools": "Plastic pry tools, hairdryer or low heat"
+      },
+      "src": [
+        "https://pricespy.co.uk/",
+        "https://www.battery.uk/"
+      ]
+    },
+    {
+      "id": "fix-switch-lite",
+      "name": "Nintendo Switch Lite",
+      "q": "Nintendo Switch Lite",
+      "cat": "Battery Swap",
+      "year": "2019",
+      "was": "£199",
+      "now": "£30 – £45",
+      "drop": "−81%",
+      "verdict": "fix",
+      "spec": "The whole Switch library on a compact handheld, with constant demand from parents.",
+      "flop": "Faded batteries and 'won't charge' listings get written off as broken. Many are just the battery, or a dirty charging port.",
+      "catch": "Strong adhesive: use only a few drops of IPA, because excess seeps under the screen. Diagnose first, since charge-port and stick-drift faults are common and are different repairs. Check it isn't banned or account-locked.",
+      "why": "Sells all year and peaks before Christmas. Batch-buy in October.",
+      "fix": {
+        "part": "£15",
+        "after": "£65 – £80",
+        "margin": "£5 – £35",
+        "level": "Moderate",
+        "time": "1 – 2 hrs",
+        "tools": "Y00 tri-point, JIS 00, picks, spudger, plastic card, IPA (a few drops only)"
+      },
+      "src": [
+        "https://www.ifixit.com/",
+        "https://www.ebay.co.uk/sch/i.html?_nkw=switch+lite"
+      ]
+    },
+    {
+      "id": "fix-roomba-980",
+      "name": "iRobot Roomba 980 / 900 series",
+      "q": "Roomba 980",
+      "cat": "Battery Swap",
+      "year": "2015",
+      "was": "£899",
+      "now": "£60 – £100",
+      "drop": "−91%",
+      "verdict": "fix",
+      "spec": "Camera navigation, app control, carpet boost and room mapping. It was iRobot's flagship and has the build quality to match.",
+      "flop": "A dead battery makes it look like the whole robot has failed. Owners have moved to robot-mop combos, and iRobot's troubles have put buyers off the brand.",
+      "catch": "Use a compatible pack (4376392 / 4462425 part numbers). After fitting, charge to 100%, leave on charge two more hours, run it flat, then recharge. Check brushes, bearings and that the app still pairs.",
+      "why": "The easiest swap on the page. Four screws, the largest margin per item, and the buyer just sees a working robot.",
+      "fix": {
+        "part": "£47",
+        "after": "£180 – £240",
+        "margin": "£33 – £133",
+        "level": "Easy",
+        "time": "10 mins",
+        "tools": "Phillips #1"
+      },
+      "src": [
+        "https://subtel.co.uk/",
+        "https://www.ifixit.com/"
+      ]
     }
   ]
 }
