@@ -16,7 +16,8 @@
       "flop": "Panasonic has almost no mindshare against Sony and Canon in stills, and the L-mount puts buyers off because they assume the lens choice is thin. It is not, but the assumption prices the body.",
       "catch": "L-mount glass costs more used than E-mount. Body is chunky for a hybrid. Check shutter count and the rear screen hinge ribbon.",
       "why": "Business kit for interiors: open gate plus strong low light suits dim pub and venue work where you are fighting mixed lighting.",
-      "deal": "£660"
+      "deal": "£800",
+      "fit": "Walkthrough and client video. A second full-frame body so you are not reshooting a venue because one camera died mid-job."
     },
     {
       "id": "mavic-3-classic",
@@ -32,7 +33,8 @@
       "flop": "DJI launched it beside the Mavic 3 Pro's triple-camera setup and every review led with the Pro. The Classic is the same airframe and the same main sensor, with the two niche lenses removed.",
       "catch": "Check the C-class marking on the airframe label before you buy, it changes what you can legally do. Must be unbound from the seller's DJI account. Check battery cycle counts in the app, not the seller's word.",
       "why": "Business kit: a genuine sensor-size step up for commercial exteriors at under half the price of current kit.",
-      "deal": "£460"
+      "deal": "£550",
+      "fit": "Exterior establishing shots for walkthroughs and school sites. Sits inside your A2 CofC."
     },
     {
       "id": "mini-pc-ryzen",
@@ -48,7 +50,8 @@
       "flop": "Neither brand has a high street presence or a marketing budget. Buyers comparing specs end up with a Dell or an Intel NUC at twice the price because those names feel safer.",
       "catch": "BIOS and firmware support is patchy and updates come from forum links, not an update tool. Fan noise varies unit to unit. Warranty claims mean shipping to a depot abroad.",
       "why": "Business kit, and the one on this list most likely to change your monthly numbers. One of these at home running Proxmox will host your n8n stack and double as a render and stitching box, replacing a VPS line item with a one-off.",
-      "deal": "£220"
+      "deal": "£260",
+      "fit": "Pub screens at the top end, or a Pano2VR render box. Overkill for signage, right for stitching."
     },
     {
       "id": "dell-ultrasharp-ipsblack",
@@ -64,7 +67,8 @@
       "flop": "Monitors are sold on refresh rate and curve. A 60Hz productivity panel gets no shelf space and no YouTube coverage, so corporate units flood the market with nobody bidding.",
       "catch": "60Hz only, so no good for gaming. Off-lease units can have backlight bleed or uniformity issues at the corners, which you cannot see in a photo. Insist on a photo of a full-black screen in a dark room.",
       "why": "Keep. Replaces a separate dock, which is a real saving most people forget to count.",
-      "deal": "£140"
+      "deal": "£160",
+      "fit": "Studio grading and Pano2VR work. The contrast matters when you are judging interior shadows."
     },
     {
       "id": "thunderbolt-dock",
@@ -80,7 +84,8 @@
       "flop": "Accessories get zero marketing and are written off the books with the laptop. They end up in office clearance lots priced as e-waste while people buy £200 generic hubs that deliver 60W and drop displays.",
       "catch": "The dock is useless without the matching power brick, so never buy one listed without it. Firmware updates often need the vendor's own utility and a supported host machine.",
       "why": "Flip. Enough steady demand from home-office buyers that these do move, and the margin on a £40 buy is strong.",
-      "deal": "£25"
+      "deal": "£25",
+      "fit": "One per working location so the laptop is a single cable at the desk and at Carolyn's."
     },
     {
       "id": "fuji-xh2",
@@ -96,7 +101,8 @@
       "flop": "Fujifilm launched the retro-styled X-T5 within weeks, with the same sensor. Every reviewer and every enthusiast went for the dials and the looks, and the better-built body got ignored.",
       "catch": "40MP is unforgiving of soft glass, so budget for decent lenses. Wants CFexpress Type B cards for the fast modes, which are not cheap. Battery drains faster than the X-T5.",
       "why": "Keep. Resolution plus weather sealing is a working combination for site stills.",
-      "deal": "£620"
+      "deal": "£750",
+      "fit": "Client video and stills. The 40MP crop is useful for architectural detail on school and care home jobs."
     },
     {
       "id": "insta360-rs-1inch",
@@ -112,7 +118,8 @@
       "flop": "Insta360's marketing pushed the X3 and everything after it, all of which use far smaller sensors but look sleeker and sell on viral social clips. The better-imaging model was quietly left behind.",
       "catch": "Not waterproof without the case. The exposed lenses scratch easily and guards are a separate purchase, so budget for them. Stitching workflow is slower than current models.",
       "why": "Business kit: fast scouting and rough-cut walkthroughs ahead of a proper bracketed DSLR shoot, without dragging the tripod round twice.",
-      "deal": "£200"
+      "deal": "£230",
+      "fit": "Exterior 360s to bolt onto Pano2VR walkthroughs, and the cheapest aerial 360 you can legally fly."
     },
     {
       "id": "proart-studiobook",
@@ -128,7 +135,8 @@
       "flop": "ASUS spends its marketing on ROG gaming machines, and creative buyers default to a MacBook Pro without shopping around. ProArt sits in the middle with nobody advertising to it.",
       "catch": "Heavy, and the fans are audible under load. OLED panels on used units can carry burn-in from taskbars, so ask for a photo of a full-white screen. Resale is slow.",
       "why": "Keep. Colour-accurate panel plus a GPU is the combination you otherwise pay Apple a premium for.",
-      "deal": "£520"
+      "deal": "£600",
+      "fit": "Studio workstation for Pano2VR and 3D. The colour-accurate screen earns its keep on client deliverables."
     },
     {
       "id": "mobile-workstation",
@@ -144,7 +152,8 @@
       "flop": "Corporate fleets dump these on three-year cycles. Private buyers do not know that \"Precision\" means an XPS with a professional GPU in it, so they scroll past and buy a consumer laptop for more money.",
       "catch": "Thermal throttling is real under sustained load, so check the fans spin freely. Batteries at this age are often at 60% health. Watch for BIOS supervisor passwords and active asset-management locks.",
       "why": "Flip, with a caveat: these move well to anyone doing 3D or CAD, and a RAM and SSD top-up from your donor stock lifts the sale price more than it costs.",
-      "deal": "£320"
+      "deal": "£380",
+      "fit": "On-site editing during multi-day shoots, and Pano2VR stitching away from the desk."
     },
     {
       "id": "technics-a800",
@@ -160,7 +169,8 @@
       "flop": "Technics is a Panasonic hi-fi brand nobody associates with headphones. It gets no shelf space next to Sony and Bose, so it competes on nothing but spec sheets that buyers never read.",
       "catch": "Build feels plastic for the price. The app is basic next to Sony's. Check the headband padding and the folding hinges, which are the usual failure points.",
       "why": "Flip. Low enough buy-in that even slow movement leaves margin, and counterfeits are not a problem because nobody bothers faking it.",
-      "deal": "£60"
+      "deal": "£60",
+      "fit": "Personal. No business case."
     },
     {
       "id": "sennheiser-momentum-4",
@@ -176,7 +186,8 @@
       "flop": "Sennheiser's consumer arm changed hands and the marketing spend evaporated. The design is also deliberately plain, which kills it on a shop shelf against Sony and Bose.",
       "catch": "Noise cancelling is a step behind the Sony XM5. No folding hinge, so the case is bulky. Early units had a firmware fault that drained the battery in standby, so confirm it has been updated.",
       "why": "Flip. The audio crowd knows these, so there is a real buyer pool even if the general public does not.",
-      "deal": "£70"
+      "deal": "£70",
+      "fit": "Personal, or resale. The flip margin is the business case."
     },
     {
       "id": "lg-gram",
@@ -192,7 +203,8 @@
       "flop": "LG is a TV and appliance brand in most buyers' heads. It has no laptop presence in UK retail, so the gram sells almost entirely to people who already went looking for it.",
       "catch": "The chassis flexes, which is the price of the weight. Speakers are poor. Integrated graphics only, so no good for rendering. Check the hinges and the lid for stress cracks.",
       "why": "Keep. If you are carrying a machine round sites all day, the weight difference is the feature.",
-      "deal": "£320"
+      "deal": "£360",
+      "fit": "The laptop you take to Carolyn's. Light enough to carry daily, enough machine for site work and email."
     },
     {
       "id": "honor-magic7-pro",
@@ -208,7 +220,8 @@
       "flop": "Honor has had no brand equity in the UK since the Huawei split. It sells a flagship the equal of a Galaxy S25 and the public reads the badge as a budget brand, so it depreciates like one.",
       "catch": "Update commitment is shorter than Samsung's or Google's, so check what it is still receiving. MagicOS is heavy on duplicate apps. Check the curved screen edges for pressure marks.",
       "why": "Keep, and the best risk-adjusted phone on this list: UK stock, UK warranty, grey-import pricing without the grey-import problems.",
-      "deal": "£260"
+      "deal": "£320",
+      "fit": "Site scouting stills and social content. A good camera phone is the device you always have."
     },
     {
       "id": "xiaomi-15-ultra",
@@ -224,7 +237,8 @@
       "flop": "Xiaomi sells officially in the UK but spends almost nothing on brand advertising here, and most buyers still file it under cheap. A £1,299 Xiaomi was always going to sit on shelves.",
       "catch": "The camera is only as good as the processing, and Xiaomi's has been inconsistent across updates. HyperOS ships with bloat. Confirm it is the global ROM and not a converted Chinese unit.",
       "why": "Keep. If you want a pocket camera that genuinely holds up for stills, this is the most camera per pound in the list.",
-      "deal": "£360"
+      "deal": "£420",
+      "fit": "Client social and scouting. The best phone camera on the list, if the price lands."
     },
     {
       "id": "vivo-oppo-flagship",
@@ -240,7 +254,8 @@
       "flop": "Neither brand sells properly in the UK. With no retail presence, no carrier deals and no advertising, the only buyers are people who already knew what they wanted.",
       "catch": "This is the risky one. Grey import means no UK warranty and no local repair route. VoLTE and WiFi calling are frequently broken on UK networks, which means no calls on 4G or 5G. Confirm it is a global ROM with Play Services, not a Chinese ROM, and confirm VoLTE works on your network before money changes hands.",
       "why": "Keep, if and only if you verify VoLTE on your own SIM first. Fail that check and it is an expensive iPod.",
-      "deal": "£300"
+      "deal": "£340",
+      "fit": "Scouting and social, or resale. Import risk is the catch."
     },
     {
       "id": "xperia-1-vii",
@@ -256,7 +271,8 @@
       "flop": "Same story as every Xperia: no UK carrier presence, no advertising, a price nobody would pay for a brand with no heat behind it. Sony sells these to people who hunt them down.",
       "catch": "Early units had a faulty circuit board causing random shutdowns, and Sony ran a replacement programme from July 2025. Dial *#06# for the IMEI and run it through Sony's own IMEI checker before you buy. If the seller will not give you the IMEI, walk.",
       "why": "Keep. Verify the IMEI first, then it is one of the best value flagships going.",
-      "deal": "£360"
+      "deal": "£400",
+      "fit": "Client video on the phone. Proper manual control and a headphone jack for monitoring."
     },
     {
       "id": "oneplus-13",
@@ -272,7 +288,8 @@
       "flop": "OnePlus lost its enthusiast identity when it merged software with OPPO, and never built a mainstream one to replace it. It now sits in a gap: too expensive for bargain hunters, too obscure for flagship buyers.",
       "catch": "Silicon-carbon batteries are newer chemistry with less of a track record, and replacements are hard to source in the UK. Check charging behaviour at high percentages. No official UK carrier support.",
       "why": "Flip. The enthusiast pool still knows and wants OnePlus, so these actually move, unlike most of this list.",
-      "deal": "£280"
+      "deal": "£320",
+      "fit": "Resale, or a daily phone. Strong flip demand."
     },
     {
       "id": "s25-edge-trap",
@@ -288,7 +305,8 @@
       "flop": "It did not flop for want of marketing. Samsung promoted it hard. It flopped because a 3900mAh battery in a 6.7in flagship means it runs out before the day does, and thinness turned out to be a feature nobody had asked for.",
       "catch": "The discount is the market pricing a real defect, not an oversight. Thin bodies also mean less room for heat, so sustained performance drops off. Resale will keep sliding.",
       "why": "Trap, and it is on this list as the control case. Before buying any steep discount, ask whether the thing was ignored or rejected. Ignored is a sleeper. Rejected is just a cheap bad product.",
-      "deal": "£260"
+      "deal": "£320",
+      "fit": "Avoid. Thin at the cost of battery and heat."
     },
     {
       "id": "thinkcentre-tiny",
@@ -304,7 +322,8 @@
       "flop": "Office clearance stock with no consumer marketing behind it. People shopping for a small PC see a Raspberry Pi or a new NUC and never learn that a far more capable machine sells for the price of the Pi's case and PSU.",
       "catch": "Often sold with no power brick, which is a proprietary square tip, so check. Some are locked with a BIOS supervisor password. The 35W T-series chips are slower than the 65W ones for the same money, so read the exact model number.",
       "why": "Business kit at pocket-money prices. Two of these will run your n8n stack and a backup target with change from £200. Cheapest route off a VPS bill there is.",
-      "deal": "£40"
+      "deal": "£40",
+      "fit": "Pub screens. The core signage box, one per venue, VESA-mounted behind the TV."
     },
     {
       "id": "hd560s",
@@ -320,7 +339,8 @@
       "flop": "Wired headphones with no noise cancelling and no brand heat. They are sold to a audio crowd that already knows about them and advertised to nobody else.",
       "catch": "Open-back, so everyone near you hears them and they leak in noise. No use on a train or a shoot. Check the headband for the known crack point where the slider meets the cup.",
       "why": "Keep. Buy for the editing desk, not for travel.",
-      "deal": "£40"
+      "deal": "£40",
+      "fit": "Studio monitoring for client video edits. Accurate enough to trust a mix."
     },
     {
       "id": "reolink-poe",
@@ -336,7 +356,8 @@
       "flop": "Ring and Nest spend fortunes on advertising a monthly fee. Reolink sells hardware that needs no fee, which means no recurring revenue to fund advertising, which means nobody has heard of it.",
       "catch": "Running cable is the real cost, not the camera. The phone app is functional rather than polished. Check the firmware is current and the unit is not an older model that phones home to a region you do not want.",
       "why": "Keep. Covers your own premises and kit storage for a one-off cost instead of a direct debit.",
-      "deal": "£20"
+      "deal": "£20",
+      "fit": "Resale and installs. A natural add-on when you are already on site for a walkthrough."
     },
     {
       "id": "omada-eap",
@@ -352,7 +373,8 @@
       "flop": "Ubiquiti owns the entire conversation about prosumer networking through sheer community presence. Omada does the same job for roughly half the money and has almost no mindshare outside installers.",
       "catch": "You need PoE, so budget for a PoE switch or injectors. Controller versions and hardware revisions have to match, so check the revision number on the label, not the listing title.",
       "why": "Flip, with decent margin. Small businesses and installers buy these, and the buyer pool knows what it is looking at.",
-      "deal": "£15"
+      "deal": "£15",
+      "fit": "Pub screens. Venues with dead Wi-Fi are why signage installs fail, and this is the fix you can bill for."
     },
     {
       "id": "brother-mono-laser",
@@ -368,7 +390,8 @@
       "flop": "HP and Epson spend their marketing on ink subscription models, because that is where the money is. A printer that costs almost nothing to run after purchase has nobody advertising it.",
       "catch": "Check the page count in the menu before buying and confirm the drum unit life remaining, which is separate from toner. Avoid units where a starter toner is the only one included.",
       "why": "Keep. Boring, and it will quietly save you more per year than most things on this list.",
-      "deal": "£15"
+      "deal": "£15",
+      "fit": "Studio. Printing site plans, shot lists and invoices without the ink racket."
     },
     {
       "id": "field-recorder",
@@ -384,7 +407,8 @@
       "flop": "Audio recorders are bought by a small professional crowd and advertised to nobody. Everyone else assumes the camera microphone will do, finds out it will not, and still never goes looking for one of these.",
       "catch": "Built-in mics are fine for room tone and poor for interviews, so budget for a lav. Check the 3.5mm jack for crackle by wiggling a plug in it. Older DR-05 models are not 32-bit float, which is the whole point.",
       "why": "Business kit. If you ever record a client talking about their venue for a walkthrough or a social clip, clean audio is what makes it look professional.",
-      "deal": "£30"
+      "deal": "£25",
+      "fit": "Client video. Clean interview audio at a venue where the room is noisy and the camera mic will not do."
     },
     {
       "id": "mft-bodies",
@@ -400,7 +424,8 @@
       "flop": "The industry narrative decided full-frame had won and Micro Four Thirds was finished. Bodies and glass fell through the floor on sentiment rather than on performance.",
       "catch": "Smaller sensor, so low light is a real step behind full-frame. The format's future is genuinely uncertain, which caps resale. Check the shutter count and the rubber grips, which go sticky with age.",
       "why": "Keep. The stabilisation and the cheap sharp glass make it a strong second body for handheld interior work.",
-      "deal": "£160"
+      "deal": "£180",
+      "fit": "Walkthrough B-camera. Light enough to carry alongside the pano head all day."
     },
     {
       "id": "dji-mic",
@@ -416,7 +441,8 @@
       "flop": "This is not a marketing failure, it is an abandonment one. Bought for a YouTube channel that lasted four videos. Comes back to market boxed, barely used, with every clip and cable still bagged.",
       "catch": "Check all three units charge and pair, not just the receiver. The magnetic clips get lost first, so confirm they are present. Verify the case hinge and that the lid closes flush.",
       "why": "Flip. Creators are a steady buyer pool and these move reliably. The condition on abandoned kit means you can list it as near-new.",
-      "deal": "£70"
+      "deal": "£70",
+      "fit": "Client video, directly. Two-person interviews at a venue with no cable run."
     },
     {
       "id": "elgato-stream-kit",
@@ -432,7 +458,8 @@
       "flop": "Pandemic-era streaming ambitions that did not survive contact with reality. Enormous volume of this stuff came to market when people went back to the office and stopped streaming.",
       "catch": "Capture cards date fast, so check the model supports the resolution you want. Stream Deck software is account-tied but the hardware is not locked. Key Light power bricks go missing.",
       "why": "Keep the Stream Deck. Mapped to your editing and stitching shortcuts it is a genuine time saver, and nothing else does that job for £50.",
-      "deal": "£30"
+      "deal": "£30",
+      "fit": "Client social content and 360school demo videos. Lighting a small room quickly."
     },
     {
       "id": "osmo-mobile",
@@ -448,7 +475,8 @@
       "flop": "Classic drawer gear. Bought for one holiday, used once, folded away. Volume on the used market is enormous and prices reflect it.",
       "catch": "Test all three motors hold under load with a phone fitted, not empty. The clamp arms crack. Check the folding joint is not loose. Missing counterweights and tripod feet are common.",
       "why": "Flip, cheaply and often. Low buy-in, steady demand, and they ship easily.",
-      "deal": "£20"
+      "deal": "£20",
+      "fit": "Client social. Smooth walk-throughs on the phone for Instagram."
     },
     {
       "id": "pen-displays",
@@ -464,7 +492,8 @@
       "flop": "Two causes stacked: Wacom owns the brand conversation entirely, and these are a textbook new-hobby purchase that gets abandoned when the drawing habit does not stick.",
       "catch": "Pen nibs wear out and spares get lost, so check some are included. Test for parallax and dead pixels. The three-cable setup is fiddly and the breakout cable is proprietary, so it must be present.",
       "why": "Keep if you do any retouching or masking work. Far faster than a mouse for cutting people out of pano stitches.",
-      "deal": "£60"
+      "deal": "£70",
+      "fit": "Retouching and Pano2VR skin work. Cheaper route to the Wacom benefit."
     },
     {
       "id": "entry-3d-printers",
@@ -480,7 +509,8 @@
       "flop": "Highest abandonment rate of anything in consumer tech. The gap between buying a printer and reliably printing something useful defeats most people inside a season.",
       "catch": "Check the bed is not warped by looking down its length. Ask for a photo of a recent print, not a photo of the machine. Seized Z-rods and stripped extruder gears are the usual faults. Collection only, realistically.",
       "why": "Flip. The upgrades are free money because sellers almost never price them in, and the buyer pool knows exactly what those parts are worth.",
-      "deal": "£30"
+      "deal": "£25",
+      "fit": "The crane planter, and printing camera mounts and signage brackets you would otherwise buy badly."
     },
     {
       "id": "legion-go",
@@ -496,7 +526,8 @@
       "flop": "It arrived beside the Steam Deck OLED, and Valve owned the conversation entirely. Windows handhelds also carry a reputation for software jank that put off the mainstream buyer.",
       "catch": "Battery life is poor at high settings. Windows handheld software is genuinely fiddly. Test both detachable controllers for stick drift and check the hall-effect sticks are the later revision.",
       "why": "Flip. Gaming handhelds still turn over faster than anything else on this list.",
-      "deal": "£180"
+      "deal": "£200",
+      "fit": "Personal. No business case, and it will not pretend otherwise."
     },
     {
       "id": "thin-clients",
@@ -512,7 +543,8 @@
       "flop": "Sold only to IT departments buying a thousand at a time and never advertised to a single human being. When the lease ends they go out by the pallet, and nobody bidding knows what they are.",
       "catch": "The weaker Intel-based models choke on video, so hold out for the AMD t630 or t640. Many ship with 8GB of flash storage and want an mSATA or M.2 drive adding. Confirm the power brick is included.",
       "why": "Business kit, and the cheapest way to put a screen on a wall. Fanless matters in a quiet bar, where a whirring box behind the telly gets noticed.",
-      "deal": "£15"
+      "deal": "£10",
+      "fit": "Pub screens at the cheapest possible cost per site. Good enough for a browser in kiosk mode."
     },
     {
       "id": "ex-corp-monitors",
@@ -528,7 +560,8 @@
       "flop": "Monitors are advertised on refresh rate, curve and gaming badges. A matte 60Hz office panel gets no coverage anywhere, so clearance stock lands in a market with nobody bidding.",
       "catch": "Often listed without the stand or cables, and a replacement stand costs more than the monitor. Ask for photos of a full-white and a full-black screen to catch uniformity problems and taskbar burn-in.",
       "why": "Flip, in pairs. This is the workhorse tier below the UltraSharp entry on this list: home-office buyers want two matching screens, and a pair at £70 moves faster than two singles.",
-      "deal": "£15"
+      "deal": "£15",
+      "fit": "Second and third studio screens, and a cheap screen to leave at a client site during a long install."
     },
     {
       "id": "business-laptops-midrange",
@@ -544,7 +577,8 @@
       "flop": "Latitude and EliteBook mean nothing to a consumer. Someone shopping at this price buys a new plastic Celeron from a supermarket instead, because it has a brand they recognise and comes in a box.",
       "catch": "Check for BIOS supervisor passwords and active asset-management locks, which make a machine worthless for resale. Batteries at this age are often at 60% health. Get the exact chip model, not just 'i5'.",
       "why": "Flip, and probably the best margin per hour here. A £100 buy plus RAM and an SSD from your donor stock sells at £220 to £260 without much effort.",
-      "deal": "£60"
+      "deal": "£70",
+      "fit": "Spare site laptop, or resale. Not a studio machine."
     },
     {
       "id": "document-scanner",
@@ -560,7 +594,8 @@
       "flop": "Discontinued, and the brand moved from Fujitsu to Ricoh, which lost the few buyers who were paying attention. Scanners get no marketing at all, because everyone assumes a phone camera will do the job.",
       "catch": "The rubber pick rollers wear out every few thousand sheets and are a £20 part. Older units want the legacy ScanSnap Manager software rather than the current app, so ask the seller which they used.",
       "why": "Keep. If you ever digitise receipts, contracts or site paperwork, this clears a shoebox in an afternoon rather than a weekend.",
-      "deal": "£30"
+      "deal": "£30",
+      "fit": "Studio admin. Getting paper receipts and signed quotes into the file structure instead of a drawer."
     },
     {
       "id": "audio-interface",
@@ -576,7 +611,8 @@
       "flop": "Focusrite markets each new generation hard, which makes the previous one read as obsolete overnight even though nothing meaningful changed. Huge numbers of them exist.",
       "catch": "1st gen driver support on current Windows is patchy, so prefer 2nd gen. Turn the gain knobs with something plugged in to check for crackle. The USB-B cable is usually missing.",
       "why": "Flip. Anyone starting a podcast or recording voiceover needs one, and that buyer pool never dries up.",
-      "deal": "£20"
+      "deal": "£20",
+      "fit": "Studio voiceover for walkthrough intros and client video. Cheapest route to usable narration."
     },
     {
       "id": "osmo-pocket",
@@ -592,7 +628,8 @@
       "flop": "Buried by the launch noise around the Pocket 3 and its larger sensor. The Pocket 2 still does the one thing it was bought for, and most were bought for a single holiday.",
       "catch": "Small sensor, so low light is weak. Accessories are proprietary and the wide-angle adapter is almost always missing. Power it on and check the gimbal holds level and does not buzz at rest.",
       "why": "Business kit. Walking a venue grabbing smooth clips for social is exactly its job, and it rides in a jacket pocket alongside the pano kit.",
-      "deal": "£80"
+      "deal": "£80",
+      "fit": "Client social content and walk-and-talk venue clips. Pocketable, so it actually comes with you."
     },
     {
       "id": "mft-cheap-bodies",
@@ -608,7 +645,8 @@
       "flop": "The same sentiment collapse that took the G9 down, but harder at this end, because entry-level bodies are the first thing people dump once a format gets declared dead.",
       "catch": "No weather sealing and no real grip. Older sensors get noisy above ISO 1600. Check the shutter count, and test the viewfinder for dead lines, which is the common fault.",
       "why": "Keep, as the cheap way into the system. If the G9 entry appeals but not at £300, this is the same glass on a smaller body.",
-      "deal": "£90"
+      "deal": "£90",
+      "fit": "Walkthrough backup, or the camera you hand a client's staff member to grab stills while you shoot 360s."
     },
     {
       "id": "manfrotto-tripods",
@@ -624,7 +662,8 @@
       "flop": "Every tripod advert for a decade has sold carbon fibre and travel weight. Heavy aluminium legs that outlive their owner get no coverage, so they sit on Marketplace at scrap prices.",
       "catch": "Heavy, which is the entire reason they are cheap. Check the leg locks hold under load and the centre column does not slip. Heads are often sold separately, so confirm exactly what is included.",
       "why": "Keep. For panorama work a solid tripod beats a light one, because every bit of shift between frames turns into a stitching error later.",
-      "deal": "£30"
+      "deal": "£25",
+      "fit": "Walkthroughs, directly. You can never have too many legs when a venue shoot runs across three rooms."
     },
     {
       "id": "pano-heads",
@@ -640,7 +679,8 @@
       "flop": "A tiny buyer pool, shrinking further as people assume a one-shot 360 camera has replaced the job. Nobody advertises these, and sellers leaving the hobby just want the space back.",
       "catch": "Compatibility matters, because the rail has to suit your body and lens. Missing click-stop rings and Allen keys are common, and they are fiddly to source. Measure before committing.",
       "why": "Business kit, and the most directly useful thing on this list for you. A spare rig in the car means a failed head on site costs you an hour, not the shoot.",
-      "deal": "£40"
+      "deal": "£40",
+      "fit": "Core walkthrough kit. A spare head means a dropped clamp does not end the shoot."
     },
     {
       "id": "quest-2",
@@ -656,7 +696,8 @@
       "flop": "The purest drawer gear on this list. Bought at Christmas, worn for a fortnight of novelty, then left in a cupboard, because almost nobody keeps putting a headset on.",
       "catch": "Battery health degrades badly in units left flat for years. The foam facial interface is unhygienic secondhand, so budget £15 to replace it. Meta's software support for this model will not run forever.",
       "why": "Keep, as a sales prop rather than a gadget. Handing a publican or a principal a headset showing their own building is a different conversation from showing them a laptop.",
-      "deal": "£50"
+      "deal": "£50",
+      "fit": "Walkthrough demos. Handing a client a headset to stand inside their own venue closes deals."
     },
     {
       "id": "label-printers",
@@ -672,7 +713,8 @@
       "flop": "Textbook razor and blades. The manufacturer makes its money on tape, so the printers are near-given away and advertised to nobody.",
       "catch": "Consumables are the real cost, and genuine Brother TZe tape is not cheap. Third-party tape works but quality varies. Run a test label before paying, and skip any unit with a cracked cassette door.",
       "why": "Keep. Labelled cables and boxes on an install is a small thing that makes the difference between looking like a company and looking like a bloke with a van.",
-      "deal": "£10"
+      "deal": "£10",
+      "fit": "Studio and site. Labelling cables, drives and signage boxes so a return visit is not detective work."
     },
     {
       "id": "ups-units",
@@ -688,7 +730,8 @@
       "flop": "Sold to IT buyers and invisible to everyone else. Most of the ones on the used market are listed as faulty when the only fault is a battery that has reached the end of its life.",
       "catch": "Assume the battery is dead. Replacement sealed lead-acid cells run £20 to £35 and swap out in about ten minutes. They are heavy, so postage ruins the deal: buy local or not at all.",
       "why": "Business kit. A signage box that corrupts its drive during a power blink is a drive to Newtownabbey you did not need to make.",
-      "deal": "£15"
+      "deal": "£15",
+      "fit": "Protects the n8n VPS gear and studio machines. Also a sensible upsell on a pub signage install."
     },
     {
       "id": "poe-switches",
@@ -704,7 +747,8 @@
       "flop": "Nobody advertises network switches to the public. They come out of office clearance beside the docks and monitors, priced as scrap by sellers who have no idea what PoE is worth.",
       "catch": "Read the total power budget on the label rather than counting ports, because a 55W switch will not carry four hungry cameras. Fanned models whine, so prefer fanless anywhere people sit.",
       "why": "Flip, and it pairs with the Reolink and Omada entries. If you are buying those for a job, pick the switch up in the same week.",
-      "deal": "£15"
+      "deal": "£15",
+      "fit": "Pub screens and camera installs. One switch per site, powers the AP and the cameras off one run."
     },
     {
       "id": "synology-ds220-plus",
@@ -720,7 +764,8 @@
       "flop": "Barely flops at all, and that is the point. Synology holds value better than almost any consumer hardware, so the discount is thin and the bargains are specific rather than general.",
       "catch": "Because the unit price is firm, the deal is always in the drives. A DS220+ listed with two populated 4TB disks for £205 is the bargain, not a bare unit at £240. Check drive power-on hours in DSM before buying, and treat any disk past 40,000 hours as a spare.",
       "why": "Business kit, and the answer to the Google Drive problem. Sync between the desktop and the MacBook without Drive in the middle, which is what was creating three versions of everything.",
-      "deal": "£120"
+      "deal": "£140",
+      "fit": "Studio backup for panorama sets and client masters. The thing that saves you when a drive dies mid-project."
     },
     {
       "id": "rode-wireless-go",
@@ -736,7 +781,8 @@
       "flop": "Two causes stacked: superseded by the GO II, which took all the marketing, and bought in volume by people who filmed four videos and stopped.",
       "catch": "1st gen has no onboard backup recording, so a dropout is lost audio for good. The output cable is easily lost and awkward to replace. Pair both units and test at ten metres before paying.",
       "why": "Flip. Sits below the DJI Mic entry on price with the same buyer pool, so it moves to the creators who cannot stretch to the DJI.",
-      "deal": "£40"
+      "deal": "£40",
+      "fit": "Client video interviews. The cheaper DJI Mic alternative."
     },
     {
       "id": "garmin-epix-gen2",
@@ -756,7 +802,8 @@
         "https://www.gumtree.com/for-sale/phones/smart-watch/uk/srpsearch+garmin+epix",
         "https://uk.webuy.com/search?stext=garmin%20epix"
       ],
-      "deal": "£120"
+      "deal": "£130",
+      "fit": "Personal, or resale. You know this market better than most."
     },
     {
       "id": "garmin-fenix-7-pro",
@@ -777,7 +824,8 @@
         "https://www.gumtree.com/for-sale/phones/smart-watch/uk/srpsearch+garmin+fenix+7",
         "https://uk.webuy.com/product-detail/?id=SWEAGARF7PSE47SBB"
       ],
-      "deal": "£200"
+      "deal": "£230",
+      "fit": "Personal, or resale. Reliable flip."
     },
     {
       "id": "garmin-instinct-2x",
@@ -797,7 +845,8 @@
         "https://www.idealo.co.uk/compare/202656466/garmin-instinct-2x-solar.html",
         "https://www.ebay.co.uk/sch/i.html?_nkw=garmin+instinct+2x+solar"
       ],
-      "deal": "£120"
+      "deal": "£140",
+      "fit": "Personal, or resale."
     },
     {
       "id": "garmin-fr255-music",
@@ -818,7 +867,8 @@
         "https://www.ebay.co.uk/p/25054802589",
         "https://www.gumtree.com/uk/srpsearch+garmin+forerunner"
       ],
-      "deal": "£100"
+      "deal": "£100",
+      "fit": "Resale. Steady demand, quick turnaround."
     },
     {
       "id": "garmin-venu-2-plus",
@@ -838,7 +888,8 @@
         "https://www.ebay.co.uk/sch/i.html?_nkw=garmin+venu+2+plus&LH_Sold=1",
         "https://uk.webuy.com/search?stext=venu%202%20plus"
       ],
-      "deal": "£70"
+      "deal": "£70",
+      "fit": "Resale, and the battery-swap donor you know how to fix."
     },
     {
       "id": "pixel-watch-1",
@@ -859,7 +910,8 @@
         "https://www.eol.wiki/pixel-watch/",
         "https://support.google.com/product-documentation/answer/12799779?hl=en"
       ],
-      "deal": "£40"
+      "deal": "£40",
+      "fit": "Avoid. Battery and support both ran out."
     },
     {
       "id": "galaxy-tab-s8-ultra",
@@ -880,7 +932,8 @@
         "https://samfrew.com/devices/galaxy-tab-s8",
         "https://uk.webuy.com/search?stext=tab%20s8%20ultra"
       ],
-      "deal": "£260"
+      "deal": "£300",
+      "fit": "Client presentations and on-site markup. Big screen for showing a walkthrough across a table."
     },
     {
       "id": "oneplus-pad",
@@ -900,7 +953,8 @@
         "https://uk.webuy.com/search?stext=oneplus%20pad",
         "https://www.ebay.co.uk/sch/i.html?_nkw=oneplus+pad"
       ],
-      "deal": "£120"
+      "deal": "£140",
+      "fit": "Site reference and client show-and-tell. Cheapest decent screen to carry."
     },
     {
       "id": "ipad-air-5-m1",
@@ -916,7 +970,8 @@
       "flop": "Apple has pushed out an M2 Air, an M3 and now an M4, each one a modest step, and the Air line gets refreshed often enough that any given generation is old within eighteen months regardless of how capable it still is.",
       "catch": "64GB base is tight if you are storing anything locally. Check it is removed from the previous owner's Apple ID or it is a brick. Inspect the corners, since a dropped iPad bends before it cracks and a bent chassis stresses the screen.",
       "why": "Flip. Strong, steady demand and an easy sell, because \"M1, same chip as the MacBook\" is a line any buyer understands. Also a decent on-site client viewer for walkthroughs.",
-      "deal": "£160"
+      "deal": "£190",
+      "fit": "Client-facing walkthrough demos and Pano2VR previews. The one clients recognise."
     },
     {
       "id": "surface-laptop-studio",
@@ -935,7 +990,8 @@
       "src": [
         "https://www.ebay.co.uk/sch/i.html?_nkw=surface+laptop+studio&LH_Sold=1"
       ],
-      "deal": "£360"
+      "deal": "£420",
+      "fit": "Client-facing sketching and markup. Nice, not necessary."
     },
     {
       "id": "thinkpad-t14s-gen3",
@@ -951,7 +1007,8 @@
       "flop": "Nothing went wrong with it. Lenovo shipped a Gen 4, then a Gen 5, and corporate fleets rotate on a three-year lease cycle, so thousands land on the market at once with the magazines already looking at the newer one.",
       "catch": "Ex-corporate means a BIOS supervisor password is possible and effectively unremovable, so confirm it boots to Windows setup. Soldered RAM on most configs, so buy the memory you need. Check the battery report before paying.",
       "why": "Business kit. The current editorial pick is the Gen 7 at £1,895. This is the same machine two revisions back for the price of a weekend's shooting.",
-      "deal": "£180"
+      "deal": "£210",
+      "fit": "Daily driver for site visits and admin if the L14 goes."
     },
     {
       "id": "x1-carbon-gen10",
@@ -967,7 +1024,8 @@
       "flop": "Flagship depreciation is the steepest of any laptop class, because the buyers who pay £2,000 new are corporates who replace on schedule rather than on need. The X1 falls further and faster than the T-series sitting beneath it.",
       "catch": "Same BIOS password risk as any ex-corporate ThinkPad. Soldered RAM. The Gen 9 and Gen 10 look identical, so check the model year, since Gen 10 brought 12th-gen silicon and a better webcam.",
       "why": "Business kit, and the best laptop-per-pound on the list. The A-List's current X1 Carbon is £2,089. This is the same lineage at under a quarter.",
-      "deal": "£280"
+      "deal": "£320",
+      "fit": "Client-facing laptop. The one you open in a headmaster's office."
     },
     {
       "id": "macbook-air-m1",
@@ -983,7 +1041,8 @@
       "flop": "Apple has shipped an M2, M3, M4 and M5 Air since, each one reviewed as the new best, and the M2 brought a redesign that made the M1 look dated. The chassis aged. The chip did not.",
       "catch": "8GB is the common config and it is the real limit, not the chip. Check battery cycle count in System Information, and confirm it is signed out of iCloud and Find My or it is locked to the seller. Only two Thunderbolt ports and no HDMI.",
       "why": "Worth keeping. The cheapest route into a machine that still gets macOS updates, and the obvious second machine when your main one is tied up with a Pano2VR render.",
-      "deal": "£220"
+      "deal": "£260",
+      "fit": "The macOS box for anything Apple-only, and testing how client sites render in Safari."
     },
     {
       "id": "mac-mini-m1",
@@ -999,7 +1058,8 @@
       "flop": "The M4 mini redesign got every headline and the M1 became the old square one. It also suffers from being a desktop nobody photographs, so it generates none of the resale enthusiasm a laptop does.",
       "catch": "Soldered RAM and storage, so 8GB and 256GB is what you get unless you pay up. Check it is signed out of the previous Apple ID. Some early units shipped with Bluetooth range issues that a firmware update largely fixed.",
       "why": "Business kit. The right shape for an always-on box: n8n, a local file server, or driving a screen, at a few watts and in total silence. The current A-List mini is £899.",
-      "deal": "£200"
+      "deal": "£230",
+      "fit": "Always-on Mac for Safari testing and as a quiet render node. Cheapest way to keep macOS in the studio."
     },
     {
       "id": "thinkpad-l14-gen3",
@@ -1015,7 +1075,8 @@
       "flop": "The L is Lenovo's budget ThinkPad, so it carries none of the X1 or T-series prestige and reviewers largely ignore it. It also sells in enormous corporate volume, which means it comes off lease in enormous volume.",
       "catch": "Ex-corporate, so check for a BIOS supervisor password. 8GB is the common config but unlike the T14s you can fix that for about £25. Heavier and thicker than a T-series, which is the trade for being able to open it.",
       "why": "Business kit, and the sensible first ThinkPad. Buy the cheapest 8GB one you can find, then pull RAM and an SSD from a dead EliteBook and it costs nothing to make right.",
-      "deal": "£180"
+      "deal": "£200",
+      "fit": "You already run one. A second at the right price is a spare that keeps you working through a failure."
     },
     {
       "id": "elitebook-840-g8",
@@ -1031,7 +1092,8 @@
       "flop": "HP sells these to corporates by the tens of thousands and nobody buys one at retail, so there is no consumer enthusiasm to hold the price up. Three-year lease cycles then dump them all at once.",
       "catch": "Check for a BIOS password and for HP Sure Start lockouts on ex-fleet machines. The aluminium lid dents rather than cracks, so look for corner damage. Some configs have soldered RAM, so confirm before assuming you can upgrade.",
       "why": "Business kit. The cheapest route to a solid 14in work laptop, and the obvious donor if you want spare RAM and NVMe drives for the L14.",
-      "deal": "£140"
+      "deal": "£160",
+      "fit": "Site laptop, or the donor that supplies RAM and NVMe drives to the L14s."
     },
     {
       "id": "optiplex-elitedesk-mini",
@@ -1047,7 +1109,8 @@
       "flop": "Corporate desktop fleets are replaced on schedule and these come out by the pallet. Nobody photographs a small black box, so they generate no resale enthusiasm and get listed as \"office PC\" with no model number at all.",
       "catch": "Confirm the power adapter is included, since these use proprietary bricks. 9th-gen Intel is the Windows 11 cutoff, so a 7060 or older will not be supported. Listings rarely state the exact generation, which is where the title badge earns its keep.",
       "why": "Business kit, and the Dell and HP answer to the ThinkCentre Tiny already on this list. Under £120 it is the cheapest always-on machine worth owning: n8n, a Plex box, or the brains behind a pub screen.",
-      "deal": "£70"
+      "deal": "£70",
+      "fit": "Pub screens, n8n host, or the Plex box. The cheapest always-on machine worth owning."
     },
     {
       "id": "zenfone-10",
@@ -1067,7 +1130,8 @@
         "https://zentalk.asus.com/t5/release-notes/260901-zenfone-10-ww-eu-35-0604-0404-165-android-15/ba-p/511304",
         "https://runtimechronicle.com/en/news/le-zenfone-10-refuse-de-disparaitre-asus-le-met-encore-a-jour-en-2026/"
       ],
-      "deal": "£200"
+      "deal": "£240",
+      "fit": "Pocketable daily phone for site work, or resale."
     },
     {
       "id": "xperia-1v",
@@ -1083,7 +1147,8 @@
       "flop": "Sony barely advertises phones in the UK and sells them through almost no carriers. Without a contract deal in front of people, a £1,299 phone with no brand heat simply does not sell.",
       "catch": "The depreciation that makes it a bargain also makes it a terrible flip. Repair network in the UK is thin and parts are slow. Check the USB-C port for wear and the screen for green tint at low brightness.",
       "why": "Keep. Buy it to use for years, not to move on.",
-      "deal": "£200"
+      "deal": "£230",
+      "fit": "Client video on the phone, cheaper than the VII."
     },
     {
       "id": "ricoh-theta-z1",
@@ -1103,7 +1168,8 @@
         "https://www.idealo.co.uk/compare/201589276/ricoh-theta-z1-51gb.html",
         "https://www.digitalcameraworld.com/reviews/ricoh-theta-z1-hands-on-review"
       ],
-      "deal": "£220"
+      "deal": "£260",
+      "fit": "Walkthrough scouting and quick-turn jobs. Fast single-shot 360s for pre-visits and care home part-shoots where a full Pano2VR set is overkill."
     },
     {
       "id": "canon-eos-rp",
@@ -1123,7 +1189,8 @@
         "https://www.digitalcameraworld.com/",
         "https://www.usedlens.co.uk/"
       ],
-      "deal": "£280"
+      "deal": "£320",
+      "fit": "Client stills. Cheapest route into full frame for interiors if the Lumix is committed elsewhere."
     },
     {
       "id": "osmo-action-4",
@@ -1143,7 +1210,8 @@
         "https://www.ebay.co.uk/sch/i.html?_nkw=osmo+action+4",
         "https://www.wex.co.uk/"
       ],
-      "deal": "£110"
+      "deal": "£120",
+      "fit": "Client social and behind-the-scenes. Useful for the Instagram shout-outs without risking the main body."
     },
     {
       "id": "shure-mv7",
@@ -1163,7 +1231,8 @@
         "https://www.gumtree.com/",
         "https://www.ebay.co.uk/sch/i.html?_nkw=shure+mv7"
       ],
-      "deal": "£50"
+      "deal": "£50",
+      "fit": "Studio voiceover and client video narration. The one to buy if you buy one."
     },
     {
       "id": "elgato-wave3",
@@ -1183,7 +1252,8 @@
         "https://uk.webuy.com/search?stext=elgato%20wave%203",
         "https://pricespy.co.uk/"
       ],
-      "deal": "£40"
+      "deal": "£40",
+      "fit": "Studio voiceover and client calls. Good enough that you stop apologising for your audio."
     },
     {
       "id": "rode-nt-usb-mini",
@@ -1203,7 +1273,8 @@
         "https://edge.rode.com/",
         "https://pricespy.co.uk/"
       ],
-      "deal": "£30"
+      "deal": "£25",
+      "fit": "Client calls and quick narration. Plug in and talk, nothing to configure."
     },
     {
       "id": "hyperx-quadcast-s",
@@ -1223,7 +1294,8 @@
         "https://uk.webuy.com/search?stext=quadcast%20s",
         "https://www.pcmag.com/"
       ],
-      "deal": "£30"
+      "deal": "£30",
+      "fit": "Resale mostly. Sells fast on the look rather than the sound."
     },
     {
       "id": "at2020usb-plus",
@@ -1243,7 +1315,8 @@
         "https://www.ebay.co.uk/sch/i.html?_nkw=at2020usb%2B",
         "https://www.trustedreviews.com/"
       ],
-      "deal": "£30"
+      "deal": "£30",
+      "fit": "Studio voiceover. Unglamorous and reliable."
     },
     {
       "id": "rode-podmic",
@@ -1263,7 +1336,8 @@
         "https://www.idealo.co.uk/",
         "https://www.musicradar.com/"
       ],
-      "deal": "£25"
+      "deal": "£25",
+      "fit": "Studio narration with the interface above. The pairing that sounds properly broadcast."
     },
     {
       "id": "logitech-brio",
@@ -1283,7 +1357,8 @@
         "https://uk.webuy.com/search?stext=logitech%20brio",
         "https://www.idealo.co.uk/"
       ],
-      "deal": "£40"
+      "deal": "£40",
+      "fit": "Client calls with schools and councils. Looking competent on a Teams call is worth £55."
     },
     {
       "id": "sony-wh1000xm4",
@@ -1302,7 +1377,8 @@
       "src": [
         "https://uk.webuy.com/search?stext=wh-1000xm4"
       ],
-      "deal": "£60"
+      "deal": "£60",
+      "fit": "Personal, or resale. Steady flip demand."
     },
     {
       "id": "sony-wf1000xm4",
@@ -1322,7 +1398,8 @@
         "https://www.ebay.co.uk/sch/i.html?_nkw=wf-1000xm4",
         "https://uk.webuy.com/search?stext=wf-1000xm4"
       ],
-      "deal": "£15"
+      "deal": "£10",
+      "fit": "Avoid. The battery fault is the whole story."
     },
     {
       "id": "kindle-oasis-3",
@@ -1342,7 +1419,8 @@
         "https://uk.webuy.com/search?stext=kindle%20oasis",
         "https://pricespy.co.uk/"
       ],
-      "deal": "£50"
+      "deal": "£50",
+      "fit": "Personal. No business case."
     },
     {
       "id": "galaxy-watch5-pro",
@@ -1362,7 +1440,8 @@
         "https://www.ebay.co.uk/sch/i.html?_nkw=galaxy+watch5+pro",
         "https://www.idealo.co.uk/"
       ],
-      "deal": "£50"
+      "deal": "£50",
+      "fit": "Personal, or resale."
     },
     {
       "id": "canon-efs-10-18",
@@ -1382,7 +1461,8 @@
         "https://www.usedlens.co.uk/",
         "https://uk.webuy.com/search?stext=10-18mm"
       ],
-      "deal": "£60"
+      "deal": "£60",
+      "fit": "Interior stills on a crop body. Wide enough for small rooms, which is most of what a care home needs."
     },
     {
       "id": "wacom-intuos-pro-m",
@@ -1402,7 +1482,8 @@
         "https://www.ebay.co.uk/sch/i.html?_nkw=wacom+pth-660",
         "https://pricespy.co.uk/"
       ],
-      "deal": "£40"
+      "deal": "£40",
+      "fit": "Retouching interiors and masking in Pano2VR skins. Faster than a mouse for the fiddly work."
     },
     {
       "id": "mx-master-3",
@@ -1422,7 +1503,8 @@
         "https://www.ebay.co.uk/sch/i.html?_nkw=mx+master+3",
         "https://uk.webuy.com/search?stext=mx%20master%203"
       ],
-      "deal": "£20"
+      "deal": "£20",
+      "fit": "Studio comfort. No revenue case, but you are at the desk a lot."
     },
     {
       "id": "fix-venu-2",
@@ -1450,7 +1532,8 @@
         "https://subtel.co.uk/",
         "https://www.ebay.co.uk/sch/i.html?_nkw=garmin+venu+2+battery"
       ],
-      "deal": "£30"
+      "deal": "£25",
+      "fit": "Resale margin. Buy tired, swap the cell, sell working — the category exists for the spread, not for keeping."
     },
     {
       "id": "fix-fenix-5-plus",
@@ -1478,7 +1561,8 @@
         "https://subtel.co.uk/",
         "https://www.gumtree.com/"
       ],
-      "deal": "£30"
+      "deal": "£30",
+      "fit": "Resale margin. Buy tired, swap the cell, sell working — the category exists for the spread, not for keeping."
     },
     {
       "id": "fix-forerunner-945",
@@ -1506,7 +1590,8 @@
         "https://www.topbattery.co.uk/",
         "https://www.ebay.co.uk/sch/i.html?_nkw=forerunner+945"
       ],
-      "deal": "£40"
+      "deal": "£40",
+      "fit": "Resale margin. Buy tired, swap the cell, sell working — the category exists for the spread, not for keeping."
     },
     {
       "id": "fix-vivoactive-4",
@@ -1534,7 +1619,8 @@
         "https://www.ifixit.com/",
         "https://subtel.co.uk/"
       ],
-      "deal": "£15"
+      "deal": "£10",
+      "fit": "Resale margin. Buy tired, swap the cell, sell working — the category exists for the spread, not for keeping."
     },
     {
       "id": "fix-sony-xm3",
@@ -1562,7 +1648,8 @@
         "https://subtel.co.uk/",
         "https://www.ifixit.com/"
       ],
-      "deal": "£15"
+      "deal": "£10",
+      "fit": "Resale margin. Buy tired, swap the cell, sell working — the category exists for the spread, not for keeping."
     },
     {
       "id": "fix-bose-qc35-ii",
@@ -1590,7 +1677,8 @@
         "https://www.ifixit.com/",
         "https://www.ebay.co.uk/sch/i.html?_nkw=qc35+ii+battery"
       ],
-      "deal": "£15"
+      "deal": "£10",
+      "fit": "Resale margin. Buy tired, swap the cell, sell working — the category exists for the spread, not for keeping."
     },
     {
       "id": "fix-dyson-v11",
@@ -1618,7 +1706,8 @@
         "https://www.idealo.co.uk/",
         "https://www.dyson.co.uk/"
       ],
-      "deal": "£30"
+      "deal": "£25",
+      "fit": "Resale margin. Buy tired, swap the cell, sell working — the category exists for the spread, not for keeping."
     },
     {
       "id": "fix-kindle-pw4",
@@ -1646,7 +1735,8 @@
         "https://pricespy.co.uk/",
         "https://www.battery.uk/"
       ],
-      "deal": "£15"
+      "deal": "£10",
+      "fit": "Resale margin. Buy tired, swap the cell, sell working — the category exists for the spread, not for keeping."
     },
     {
       "id": "fix-switch-lite",
@@ -1674,7 +1764,8 @@
         "https://www.ifixit.com/",
         "https://www.ebay.co.uk/sch/i.html?_nkw=switch+lite"
       ],
-      "deal": "£20"
+      "deal": "£20",
+      "fit": "Resale margin. Buy tired, swap the cell, sell working — the category exists for the spread, not for keeping."
     },
     {
       "id": "fix-roomba-980",
@@ -1702,7 +1793,8 @@
         "https://subtel.co.uk/",
         "https://www.ifixit.com/"
       ],
-      "deal": "£40"
+      "deal": "£40",
+      "fit": "Resale margin. Buy tired, swap the cell, sell working — the category exists for the spread, not for keeping."
     }
   ]
 }

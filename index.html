@@ -322,6 +322,12 @@
     font-size: 0.875rem;
   }
   .catch .flabel { color: var(--caution); }
+
+  .field.fit {
+    border-left: 2px solid var(--accent);
+    padding-left: 10px;
+  }
+  .field.fit .flabel { color: var(--accent); }
   .catch p { margin: 0; color: var(--ink); }
 
   .verdict {
@@ -445,7 +451,9 @@
   <div class="empty" id="empty" hidden>Nothing matches that filter</div>
 
   <footer>
-    <p><strong>On the prices.</strong> The "new" figure is UK launch RRP. "Typical used" is a working estimate of a fair private-sale price, not a quote, and it goes stale. <strong>Deal below</strong> is the number that matters: the ceiling under which the entry is worth acting on rather than thinking about. It is derived the same way for every entry, at three-quarters of the bottom of the typical band, rounded down. That makes it a judgment about value rather than an observation of price, so it ages far better than a range does. Price filters read the ceiling, not the band. Hit <em>Sold prices</em> on any entry before you offer: that shows what buyers actually paid, where live listings only show what sellers are hoping for.</p>
+    <p><strong>On the prices.</strong> The "new" figure is UK launch RRP. "Typical used" is a working estimate of a fair private-sale price, not a quote, and it goes stale. <strong>Deal below</strong> is the number that matters: the ceiling under which the entry is worth acting on rather than thinking about. It is a judgment about value rather than an observation of price, so it ages far better than a range does. The discount runs on a sliding scale, because cheap kit gets dumped carelessly by sellers who never checked what it was worth, while anything over a few hundred is listed by someone who did: roughly 72% of the band's floor under £50, tightening to 90% above £600. It is calibrated against a real buy, a Lenovo 40AY dock at £25 against a £39.99 trade price. Price filters read the ceiling, not the band. Hit <em>Sold prices</em> on any entry before you offer: that shows what buyers actually paid, where live listings only show what sellers are hoping for.</p>
+    <p><strong>Where it fits.</strong> Every entry says which part of the business it serves: walkthrough production, pub screens, client video, studio and admin, or resale. Where there is no business case it says so rather than inventing one. That line is the difference between a shopping list and a procurement list, and it is the thing to read before the price.</p>
+
     <p><strong>On the verdicts.</strong> <em>Keep</em> means the value is in owning it and resale will be slow. <em>Flip</em> means there is enough residual demand to move it on inside a fortnight. <em>Business kit</em> means it earns rather than sits. <em>Trap</em> means the discount is real but so is the reason for it. <em>Buy to fix</em> means the value only appears after a repair.</p>
     <p><strong>Battery Swap.</strong> A third kind of discount: good hardware written off because the battery faded. On these entries the "now" figure is a tired or dead unit, and the panel shows battery cost, fixed resale value and the margin between the two. Margin assumes your time is free and the cell is good, so buy batteries from sellers who accept returns. Any sealed device that has been opened is no longer reliably waterproof. Sell it as splash-resistant and say so in the listing.</p>
     <p><strong>Two different discounts.</strong> Most of this list is cheap because it was <em>sold badly</em>. The Drawer category is cheap for a different reason: high abandonment. Kit bought on enthusiasm for a project that never started, used twice, shelved. It comes to market boxed and barely touched, from a seller who only wants the space back. Worse odds of finding one, far better condition when you do, and the lowest-risk buy on the whole page.</p>
@@ -589,6 +597,11 @@ ${item.fix ? `
           <div><span class="plabel">Time</span><span class="pval">${esc(item.fix.time)}</span></div>
           <div class="tools"><span class="plabel">Kit</span>${esc(item.fix.tools)}</div>
         </div>` : ""}
+
+        <div class="field fit">
+          <span class="flabel">Where it fits</span>
+          <p>${esc(item.fit)}</p>
+        </div>
 
         <div class="field">
           <span class="flabel">Still good because</span>
