@@ -274,7 +274,25 @@
   }
   .pval { font-family: var(--mono); font-size: 13px; font-weight: 500; }
   .pval.was { color: var(--muted); text-decoration: line-through; text-decoration-thickness: 1px; }
-  .pval.now { color: var(--accent); font-weight: 600; }
+  .pval.now { color: var(--muted); font-weight: 500; }
+
+  .dealbar {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    margin-top: 10px;
+    padding: 7px 10px;
+    border: 1px solid var(--accent);
+    border-radius: 4px;
+  }
+  .dealbar .plabel { margin-bottom: 0; color: var(--accent); }
+  .dealbar .dval {
+    font-family: var(--mono);
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--accent);
+    margin-left: auto;
+  }
   .drop {
     font-family: var(--mono);
     font-size: 13px;
@@ -427,7 +445,7 @@
   <div class="empty" id="empty" hidden>Nothing matches that filter</div>
 
   <footer>
-    <p><strong>On the prices.</strong> The "new" figure is UK launch RRP. The "now" figure is a working estimate of a fair private-sale price, not a quote. Hit <em>Sold prices</em> on any entry before you offer: that shows what buyers actually paid, where live listings only show what sellers are hoping for.</p>
+    <p><strong>On the prices.</strong> The "new" figure is UK launch RRP. "Typical used" is a working estimate of a fair private-sale price, not a quote, and it goes stale. <strong>Deal below</strong> is the number that matters: the ceiling under which the entry is worth acting on rather than thinking about. It is derived the same way for every entry, at three-quarters of the bottom of the typical band, rounded down. That makes it a judgment about value rather than an observation of price, so it ages far better than a range does. Price filters read the ceiling, not the band. Hit <em>Sold prices</em> on any entry before you offer: that shows what buyers actually paid, where live listings only show what sellers are hoping for.</p>
     <p><strong>On the verdicts.</strong> <em>Keep</em> means the value is in owning it and resale will be slow. <em>Flip</em> means there is enough residual demand to move it on inside a fortnight. <em>Business kit</em> means it earns rather than sits. <em>Trap</em> means the discount is real but so is the reason for it. <em>Buy to fix</em> means the value only appears after a repair.</p>
     <p><strong>Battery Swap.</strong> A third kind of discount: good hardware written off because the battery faded. On these entries the "now" figure is a tired or dead unit, and the panel shows battery cost, fixed resale value and the margin between the two. Margin assumes your time is free and the cell is good, so buy batteries from sellers who accept returns. Any sealed device that has been opened is no longer reliably waterproof. Sell it as splash-resistant and say so in the listing.</p>
     <p><strong>Two different discounts.</strong> Most of this list is cheap because it was <em>sold badly</em>. The Drawer category is cheap for a different reason: high abandonment. Kit bought on enthusiasm for a project that never started, used twice, shelved. It comes to market boxed and barely touched, from a seller who only wants the space back. Worse odds of finding one, far better condition when you do, and the lowest-risk buy on the whole page.</p>
@@ -449,9 +467,9 @@ const TIERS = [
   { key: "top",  label: "£500+", test: n => n >= 500 }
 ];
 
-// Entry price = the low end of the "now, used" band.
+// Entry price = the deal ceiling, the number worth acting below.
 function entryPrice(item) {
-  const m = String(item.now).match(/£\s*([\d,]+)/);
+  const m = String(item.deal || item.now).match(/£\s*([\d,]+)/);
   return m ? parseInt(m[1].replace(/,/g, ""), 10) : 0;
 }
 const VERDICTS = {
@@ -554,8 +572,13 @@ function render() {
 
         <div class="prices">
           <div><span class="plabel">New</span><span class="pval was">${esc(item.was)}</span></div>
-          <div><span class="plabel">${item.fix ? "Now, tired" : "Now, used"}</span><span class="pval now">${esc(item.now)}</span></div>
+          <div><span class="plabel">${item.fix ? "Typical, tired" : "Typical used"}</span><span class="pval now">${esc(item.now)}</span></div>
           <div class="drop">${esc(item.drop)}</div>
+        </div>
+
+        <div class="dealbar">
+          <span class="plabel">${item.verdict === "trap" ? "Only below" : "Deal below"}</span>
+          <span class="dval">${esc(item.deal)}</span>
         </div>
 ${item.fix ? `
         <div class="fixbox">
