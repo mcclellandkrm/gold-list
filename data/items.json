@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07",
+  "updated": "2026-11-14",
   "note": "Prices are working estimates for the UK private-sale market, not quotes. Re-check against eBay sold listings before offering.",
   "items": [
     {
@@ -678,6 +678,21 @@
       "why": "Flip, and it pairs with the Reolink and Omada entries. If you are buying those for a job, pick the switch up in the same week."
     },
     {
+      "id": "synology-ds220-plus",
+      "name": "Synology DS220+ / DS720+",
+      "q": "Synology DS220+",
+      "cat": "Premises",
+      "year": "2020",
+      "was": "£300",
+      "now": "£170 – £240",
+      "drop": "−37%",
+      "verdict": "biz",
+      "spec": "Two bays, dual gigabit, and DSM, which is still the best NAS software anyone ships. Synology Drive gives you the thing you are actually trying to replace: file sync across machines, running on hardware you own.",
+      "flop": "Barely flops at all, and that is the point. Synology holds value better than almost any consumer hardware, so the discount is thin and the bargains are specific rather than general.",
+      "catch": "Because the unit price is firm, the deal is always in the drives. A DS220+ listed with two populated 4TB disks for £205 is the bargain, not a bare unit at £240. Check drive power-on hours in DSM before buying, and treat any disk past 40,000 hours as a spare.",
+      "why": "Business kit, and the answer to the Google Drive problem. Sync between the desktop and the MacBook without Drive in the middle, which is what was creating three versions of everything."
+    },
+    {
       "id": "rode-wireless-go",
       "name": "Rode Wireless GO (1st gen)",
       "q": "Rode Wireless GO",
@@ -849,6 +864,21 @@
       ]
     },
     {
+      "id": "ipad-air-5-m1",
+      "name": "Apple iPad Air 5 (M1, 2022)",
+      "q": "iPad Air 5 M1",
+      "cat": "Tablets",
+      "year": "2022",
+      "was": "£669",
+      "now": "£230 – £300",
+      "drop": "−60%",
+      "verdict": "flip",
+      "spec": "The same M1 that powers the Air and the mini, in a 10.9in tablet. Full Apple Pencil 2 support, USB-C, and enough power that it never feels like the limiting factor for anything a tablet is asked to do.",
+      "flop": "Apple has pushed out an M2 Air, an M3 and now an M4, each one a modest step, and the Air line gets refreshed often enough that any given generation is old within eighteen months regardless of how capable it still is.",
+      "catch": "64GB base is tight if you are storing anything locally. Check it is removed from the previous owner's Apple ID or it is a brick. Inspect the corners, since a dropped iPad bends before it cracks and a bent chassis stresses the screen.",
+      "why": "Flip. Strong, steady demand and an easy sell, because \"M1, same chip as the MacBook\" is a line any buyer understands. Also a decent on-site client viewer for walkthroughs."
+    },
+    {
       "id": "surface-laptop-studio",
       "name": "Microsoft Surface Laptop Studio (1st gen)",
       "q": "Surface Laptop Studio",
@@ -865,6 +895,66 @@
       "src": [
         "https://www.ebay.co.uk/sch/i.html?_nkw=surface+laptop+studio&LH_Sold=1"
       ]
+    },
+    {
+      "id": "thinkpad-t14s-gen3",
+      "name": "Lenovo ThinkPad T14s Gen 3",
+      "q": "ThinkPad T14s Gen 3",
+      "cat": "Computing",
+      "year": "2022",
+      "was": "£1,399",
+      "now": "£260 – £400",
+      "drop": "−75%",
+      "verdict": "biz",
+      "spec": "12th-gen i5 or i7 P-series, 14in 16:10 screen, Thunderbolt 4, the keyboard nothing else matches, and a chassis tested to military spec. Two generations back from the current A-List pick and still does the same job.",
+      "flop": "Nothing went wrong with it. Lenovo shipped a Gen 4, then a Gen 5, and corporate fleets rotate on a three-year lease cycle, so thousands land on the market at once with the magazines already looking at the newer one.",
+      "catch": "Ex-corporate means a BIOS supervisor password is possible and effectively unremovable, so confirm it boots to Windows setup. Soldered RAM on most configs, so buy the memory you need. Check the battery report before paying.",
+      "why": "Business kit. The current editorial pick is the Gen 7 at £1,895. This is the same machine two revisions back for the price of a weekend's shooting."
+    },
+    {
+      "id": "x1-carbon-gen10",
+      "name": "Lenovo ThinkPad X1 Carbon Gen 10 / Gen 9",
+      "q": "ThinkPad X1 Carbon Gen 10",
+      "cat": "Computing",
+      "year": "2021–22",
+      "was": "£2,180",
+      "now": "£380 – £520",
+      "drop": "−79%",
+      "verdict": "biz",
+      "spec": "Carbon fibre and magnesium at just over 1.1kg, 14in 16:10, Thunderbolt 4, and the best keyboard on any ultraportable. The flagship ThinkPad, which means the build quality the cheaper lines only approximate.",
+      "flop": "Flagship depreciation is the steepest of any laptop class, because the buyers who pay £2,000 new are corporates who replace on schedule rather than on need. The X1 falls further and faster than the T-series sitting beneath it.",
+      "catch": "Same BIOS password risk as any ex-corporate ThinkPad. Soldered RAM. The Gen 9 and Gen 10 look identical, so check the model year, since Gen 10 brought 12th-gen silicon and a better webcam.",
+      "why": "Business kit, and the best laptop-per-pound on the list. The A-List's current X1 Carbon is £2,089. This is the same lineage at under a quarter."
+    },
+    {
+      "id": "macbook-air-m1",
+      "name": "Apple MacBook Air M1 (2020)",
+      "q": "MacBook Air M1 2020",
+      "cat": "Computing",
+      "year": "2020",
+      "was": "£999",
+      "now": "£300 – £430",
+      "drop": "−62%",
+      "verdict": "keep",
+      "spec": "The machine that started Apple silicon. Fanless, genuinely silent, 15 hours of real battery, and still quick enough for everything short of heavy video. Five years on it does not feel like an old laptop.",
+      "flop": "Apple has shipped an M2, M3, M4 and M5 Air since, each one reviewed as the new best, and the M2 brought a redesign that made the M1 look dated. The chassis aged. The chip did not.",
+      "catch": "8GB is the common config and it is the real limit, not the chip. Check battery cycle count in System Information, and confirm it is signed out of iCloud and Find My or it is locked to the seller. Only two Thunderbolt ports and no HDMI.",
+      "why": "Worth keeping. The cheapest route into a machine that still gets macOS updates, and the obvious second machine when your main one is tied up with a Pano2VR render."
+    },
+    {
+      "id": "mac-mini-m1",
+      "name": "Apple Mac mini M1 (2020)",
+      "q": "Mac mini M1 2020",
+      "cat": "Computing",
+      "year": "2020",
+      "was": "£699",
+      "now": "£280 – £380",
+      "drop": "−55%",
+      "verdict": "biz",
+      "spec": "Same M1 as the Air with no battery or thermal limit, so it holds its clocks indefinitely. Gigabit ethernet, HDMI, two Thunderbolt ports, draws single-digit watts at idle and makes no noise at all.",
+      "flop": "The M4 mini redesign got every headline and the M1 became the old square one. It also suffers from being a desktop nobody photographs, so it generates none of the resale enthusiasm a laptop does.",
+      "catch": "Soldered RAM and storage, so 8GB and 256GB is what you get unless you pay up. Check it is signed out of the previous Apple ID. Some early units shipped with Bluetooth range issues that a firmware update largely fixed.",
+      "why": "Business kit. The right shape for an always-on box: n8n, a local file server, or driving a screen, at a few watts and in total silence. The current A-List mini is £899."
     },
     {
       "id": "zenfone-10",
