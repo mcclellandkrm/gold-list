@@ -162,6 +162,9 @@
   .tier-row { flex-basis: 100%; }
   .tier-pill[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--card); }
 
+  .fit-row { flex-basis: 100%; }
+  .fit-pill[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--card); }
+
   .pill {
     font-family: var(--mono);
     font-size: 11px;
@@ -444,6 +447,8 @@
     <div class="pills" id="cats"></div>
     <button class="pill star-filter" id="starFilter" type="button" aria-pressed="false">★ Shortlist</button>
     <div class="pills tier-row" id="tiers"></div>
+
+    <div class="pills fit-row" id="fits"></div>
   </div>
 
   <div class="count" id="count"></div>
@@ -466,6 +471,16 @@
 let ITEMS = [];
 
 const CATS = ["All", "Battery Swap", "Computing", "Phones", "Tablets", "Watches", "Mics", "Cameras", "Drones", "Audio", "Desk", "Premises", "Drawer", "Handheld"];
+
+const FITS = [
+  { key: "all",          label: "Any use" },
+  { key: "walkthroughs", label: "Walkthroughs" },
+  { key: "screens",      label: "Pub screens" },
+  { key: "video",        label: "Client video" },
+  { key: "studio",       label: "Studio" },
+  { key: "resale",       label: "Resale" },
+  { key: "personal",     label: "Personal" }
+];
 
 const TIERS = [
   { key: "any",  label: "Any price", test: () => true },
@@ -490,6 +505,7 @@ const VERDICTS = {
 
 let activeCat = "All";
 let activeTier = "any";
+let activeFit = "all";
 let query = "";
 let starredOnly = false;
 let starred = loadStarred();
@@ -529,15 +545,20 @@ function buildPills() {
   document.getElementById("tiers").innerHTML = TIERS.map(t =>
     `<button class="pill tier-pill" type="button" data-tier="${esc(t.key)}" aria-pressed="${t.key === activeTier}">${esc(t.label)}</button>`
   ).join("");
+
+  document.getElementById("fits").innerHTML = FITS.map(f =>
+    `<button class="pill fit-pill" type="button" data-fit="${esc(f.key)}" aria-pressed="${f.key === activeFit}">${esc(f.label)}</button>`
+  ).join("");
 }
 
 function matches(item) {
   if (activeCat !== "All" && item.cat !== activeCat) return false;
+  if (activeFit !== "all" && !(item.fitkey || []).includes(activeFit)) return false;
   const tier = TIERS.find(t => t.key === activeTier);
   if (tier && !tier.test(entryPrice(item))) return false;
   if (starredOnly && !starred.has(item.id)) return false;
   if (!query) return true;
-  const hay = [item.name, item.cat, item.spec, item.flop, item.catch, item.why, item.year, item.fix ? item.fix.tools : ""].join(" ").toLowerCase();
+  const hay = [item.name, item.cat, item.spec, item.flop, item.catch, item.why, item.fit, item.year, item.fix ? item.fix.tools : ""].join(" ").toLowerCase();
   return hay.includes(query);
 }
 
@@ -647,6 +668,14 @@ document.getElementById("tiers").addEventListener("click", e => {
   const btn = e.target.closest("[data-tier]");
   if (!btn) return;
   activeTier = btn.dataset.tier;
+  buildPills();
+  render();
+});
+
+document.getElementById("fits").addEventListener("click", e => {
+  const btn = e.target.closest("[data-fit]");
+  if (!btn) return;
+  activeFit = btn.dataset.fit;
   buildPills();
   render();
 });
